@@ -6,6 +6,8 @@
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
+    font-size: 2vh;
 }
 
 *
@@ -16,7 +18,12 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
 
 .right
 {
@@ -26,84 +33,7 @@
 
 h1
 {
-    font-size: 400%;
-}
-
-input[type=text]
-{
-    background-color: #0B61F4;
-    border: 2px solid #F8F3E8;
-    border-radius: 10px;
-    width: 300px;
-    height: 30px;
-    color: #F8F3E8;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-input[type=text]:focus
-{
-    outline: none;
-}
-
-textarea
-{
-    background-color: #0B61F4;
-    border: 2px solid #F8F3E8;
-    border-radius: 10px;
-    width: 300px;
-    height: 200px;
-    color: white;
-    padding: 10px;
-    resize: none;
-}
-
-textarea:focus
-{
-    outline: none;
-}
-
-button
-{
-    background-color: #F8F3E8;
-    border: 2px solid #F8F3E8;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    color: #0B61F4;
-    transition: 0.3s;
-}
-
-button:hover
-{
-    background-color: #0B61F4;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    color: #F8F3E8;
-    cursor: pointer;
-}
-
-a
-{
-    color: #F8F3E8;
-    text-decoration: none; 
-}
-
-a:hover
-{
-    text-decoration: underline;
-}
-
-#consultation-form {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, padding 0.3s ease;
-}
-
-#consultation-form.open {
-max-height: 1000px; /* large enough to fit content */
-padding-top: 10px;
+    font-size: 2em;
 }
 
 #header
@@ -115,6 +45,19 @@ padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 600px)
+{
+    #header
+    {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
 }
 
 #logo
@@ -131,14 +74,119 @@ padding-top: 10px;
     place-items: center;
 }
 
+#form-label
+{
+    color: #0B61F4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=text]
+{
+    background-color: #F8F3E8;
+    border: 2px solid #0B61F4;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    color: #0B61F4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type=text]:focus
+{
+    outline: none;
+}
+
+textarea
+{
+    background-color: #F8F3E8;
+    border: 2px solid #0B61F4;
+    border-radius: 10px;
+    width: 80%;
+    height: 200px;
+    color: #0B61F4;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+
+textarea:focus
+{
+    outline: none;
+}
+
+button
+{
+    background-color: #0B61F4;
+    border: 2px solid #0B61F4;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color:  #F8F3E8;
+    transition: 0.3s;
+}
+
+button:hover
+{
+    background-color: #F8F3E8;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: #0B61F4;
+    cursor: pointer;
+}
+
+a
+{
+    color: #F8F3E8;
+    text-decoration: none; 
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#form
+{
+    background-color: #F8F3E8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#toggle-form
+{
+    color: #0B61F4;
+    cursor: pointer;
+}
+
+#toggle-form:hover:not(.disabled)
+{
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+#consultation-form
+{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+}
+
+#consultation-form.open
+{
+    max-height: 1000px; /* large enough to fit content */
+    padding-top: 10px;
+}
+
 #body0
 {
     color: #0B61F4;
     background-color: #F8F3E8;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #features
@@ -146,7 +194,7 @@ padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 1vh;
 }
 
 #body1
@@ -155,8 +203,8 @@ padding-top: 10px;
     background-color: #0B61F4;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #footer
@@ -166,3 +214,37 @@ padding-top: 10px;
     background-color: #0B61F4;
     text-align: center;
 }
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #F8F3E8; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 1s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #F8F3E8; }
+  }
+
+@keyframes shake {
+    10%, 90% {
+      transform: rotate(2deg);
+    }
+    30%, 70% {
+      transform: rotate(-2deg);
+    }
+    50% {
+      transform: rotate(2deg);
+    }
+  }

@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     toggle.addEventListener("click", function () {
         form.classList.toggle("open");
+        toggle.classList.toggle("disabled", form.classList.contains("open"));
     });
 });
 
