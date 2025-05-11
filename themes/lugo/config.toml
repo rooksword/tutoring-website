@@ -1,5 +1,5 @@
 title = "Website Name"
-baseURL = '/'
+baseURL = 'https://rooksword.github.io/tutoring-website'
 languageCode = 'en-us'
 
 [params]
