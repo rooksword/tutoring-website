@@ -7,3 +7,7 @@ theme = 'lugo'
 copyright = '© Lateral Tutors {year}'
 
 ignoreLogs = ['warning-goldmark-raw-html']
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
