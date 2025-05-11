@@ -4,7 +4,7 @@
 	<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
 	<link rel="canonical" href="{{ .Site.BaseURL }}">
 	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
-	<link rel="stylesheet" type="text/css" href="{{ "style.css" | relURL }}">
+	<link rel='stylesheet' type='text/css' href='/style.css'>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,13 +22,13 @@
 <body>
 	<script>
 		document.documentElement.style.setProperty('--colour-secondary', '{{ .Params.secondary_color | default "#0B61F4" }}');
-		document.documentElement.style.setProperty('--colour-secondary', '{{ .Params.secondary_color | default "#0B61F4" }}');
+		document.documentElement.style.setProperty('--background-image', 'url({{ .Params.background | default "/library.png" }})');
 	</script>
-
+	
 	{{ partial "header.html" . }}
-	
+
 	{{ partial "hero.html" . }}
-	
+
 	<br>
 	{{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
 	<main>
@@ -41,7 +41,6 @@
 	{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
 	</article>
 	</main>
-	<br>
 	{{ block "footer" . }}
 	<footer>
 		<p>{{ replace .Site.Copyright "{year}" now.Year }}</p>

@@ -1,4 +1,4 @@
-baseURL = 'https://lateraltutors.netlify.app'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Lateral Tutors'
 
@@ -7,7 +7,3 @@ theme = 'lugo'
 copyright = '© Lateral Tutors {year}'
 
 ignoreLogs = ['warning-goldmark-raw-html']
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'

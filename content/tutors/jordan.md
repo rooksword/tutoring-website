@@ -1,10 +1,11 @@
 +++
 date = '2024-05-09T23:02:24+01:00'
 draft = false
-title = 'Jordan Guillou'
+title = 'Jordan Guillou Tutoring'
 subject = 'English Language and Literature'
 level = 'GCSEs and A-levels'
-image = 'jordan.jpg'
+image = '/jordan.jpg'
+background = '/library.png'
 +++
 # About Jordan
 

@@ -1,5 +1,5 @@
 title = "Website Name"
-baseURL = 'https://lateraltutors.netlify.app'
+baseURL = 'https://example.org'
 languageCode = 'en-us'
 
 [params]
@@ -23,7 +23,3 @@ languageCode = 'en-us'
   nextprev = true
   taglist = true
   showrss = true
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'

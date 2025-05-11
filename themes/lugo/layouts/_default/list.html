@@ -9,14 +9,14 @@
 		<a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}
 		{{ if and (eq .Section "tutors") (eq .Kind "page") }}
 			<br>
-			<img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" style="width: 100px; height: 100px; border-radius: 1000px">
+			<img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100px; height: 100px; border-radius: 1000px">
 			<br>
 			<small>Subject: {{ .Params.subject }}</small>
 			<br>
 			<small>Level: {{ .Params.level }}</small>
-			<br><br>
 		{{ end }}
 		</a>
+		<br><br>
 		<!-- {{ .Summary }} -->
 		{{- if .Param "authorsinlist" }}
 		{{ with .Params.authors }}

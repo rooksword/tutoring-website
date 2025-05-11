@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.147.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1391&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.147.2">
 	<title>Lateral Tutors</title>
-	<link rel="canonical" href="http://localhost:1391/">
+	<link rel="canonical" href="https://example.org/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
-	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel='stylesheet' type='text/css' href='/style.css'>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 	<link rel="icon" href="/favicon.ico">
 	<meta name="description" content="Welcome to Lateral Tutors
 Lateral Tutors is a dedicated tutoring network committed to providing high-quality educational support to students of all ages. Our mission is to empower learners by connecting them with experienced tutors who are passionate about teaching and fostering academic growth.
-Click one of the links below to see our tutors, read our about page, or check out our blogs:">
+Click the links below to see our tutors, read about us, and find blogs posts written by us:">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta charset="utf-8">
@@ -22,12 +22,12 @@ Click one of the links below to see our tutors, read our about page, or check ou
 <body>
 	<script>
 		document.documentElement.style.setProperty('--colour-secondary', '#0B61F4');
-		document.documentElement.style.setProperty('--colour-secondary', '#0B61F4');
+		document.documentElement.style.setProperty('--background-image', 'url(\/library.png)');
 	</script>
-
+	
 	<b>
 <header>
-    <a href="/" style="text-decoration: underline">Lateral Tutors</a>
+    <a href="https://example.org/" style="text-decoration: underline">Lateral Tutors</a>
 
     
 
@@ -44,19 +44,61 @@ Click one of the links below to see our tutors, read our about page, or check ou
     </div>
 </header>
 </b>
+
+	<div id="logo">
+    
+    
+    <h1 id="hero-title">Lateral Tutors</h1>
+
+    
+    
+    <div id="form">
+        <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
+        <div id="consultation-form">
+            <p></p>
+            <p  id="form-label">Your name:</p>
+            <input type="text" placeholder="How should I call you?"></input>
+            <p></p>
+            <p  id="form-label">Email:</p>
+            <input type="text" placeholder="yourname@email.com"></input>
+            <p></p>
+            <p  id="form-label">Phone:</p>
+            <input type="text" placeholder="+XX XXXX XXXXXX"></input>
+            <p></p>
+            <p  id="form-label">Message:</p>
+            <textarea placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
+            <br>
+            <button style="margin-top: 10px;">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("toggle-form");
+        const form = document.getElementById("consultation-form");
+
+        toggle.addEventListener("click", function () {
+            form.classList.toggle("open");
+                toggle.classList.toggle("disabled", form.classList.contains("open"));
+            });
+    });
+</script>
+
 	<br>
 	<main>
 	
 	<article>
 	<h1 id="welcome-to-lateral-tutors">Welcome to Lateral Tutors</h1>
 <p>Lateral Tutors is a dedicated tutoring network committed to providing high-quality educational support to students of all ages. Our mission is to empower learners by connecting them with experienced tutors who are passionate about teaching and fostering academic growth.</p>
-<p>Click one of the links below to see our tutors, read our about page, or check out our blogs:</p>
+<p>Click the links below to see our tutors, read about us, and find blogs posts written by us:</p>
 
 	<li class="list">
 		
 		<a href="/tutors/" style="text-decoration: none; color: inherit;">Our Tutors
 		
 		</a>
+		<br><br>
 		
 		
 		</li>
@@ -65,6 +107,7 @@ Click one of the links below to see our tutors, read our about page, or check ou
 		<a href="/about/" style="text-decoration: none; color: inherit;">About
 		
 		</a>
+		<br><br>
 		
 		
 		</li>
@@ -73,13 +116,13 @@ Click one of the links below to see our tutors, read our about page, or check ou
 		<a href="/blog/" style="text-decoration: none; color: inherit;">Blogs
 		
 		</a>
+		<br><br>
 		
 		
 		</li>
 	
 </article>
 	</main>
-	<br>
 	
 	<footer>
 		<p>© Lateral Tutors 2025</p>

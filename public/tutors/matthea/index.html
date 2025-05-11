@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1391&amp;path=livereload" data-no-instant defer></script>
-	<title>Matthea Erasmus | Lateral Tutors</title>
-	<link rel="canonical" href="http://localhost:1391/">
+<head>
+	<title>Matthea Erasmus Tutoring | Lateral Tutors</title>
+	<link rel="canonical" href="https://example.org/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
-	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel='stylesheet' type='text/css' href='/style.css'>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,12 +35,12 @@ Interested in working with Matthea? Reach out to schedule a session or learn mor
 <body>
 	<script>
 		document.documentElement.style.setProperty('--colour-secondary', '#f700ff');
-		document.documentElement.style.setProperty('--colour-secondary', '#f700ff');
+		document.documentElement.style.setProperty('--background-image', 'url(\/brain.png)');
 	</script>
-
+	
 	<b>
 <header>
-    <a href="/" >Lateral Tutors</a>
+    <a href="https://example.org/" >Lateral Tutors</a>
 
     
 
@@ -57,6 +57,51 @@ Interested in working with Matthea? Reach out to schedule a session or learn mor
     </div>
 </header>
 </b>
+
+	<div id="logo">
+    
+    <a href="#"><img src="/matthea.jpg" alt="Matthea Erasmus Tutoring" style="width: 200px; height: 200px; border-radius: 1000px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);"><br></a>
+    
+    
+    <h1 id="hero-title">Matthea Erasmus Tutoring</h1>
+
+    
+    <h2>Psychology at GCSEs and A-levels</h2>
+    
+    
+    <div id="form">
+        <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
+        <div id="consultation-form">
+            <p></p>
+            <p  id="form-label">Your name:</p>
+            <input type="text" placeholder="How should I call you?"></input>
+            <p></p>
+            <p  id="form-label">Email:</p>
+            <input type="text" placeholder="yourname@email.com"></input>
+            <p></p>
+            <p  id="form-label">Phone:</p>
+            <input type="text" placeholder="+XX XXXX XXXXXX"></input>
+            <p></p>
+            <p  id="form-label">Message:</p>
+            <textarea placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
+            <br>
+            <button style="margin-top: 10px;">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("toggle-form");
+        const form = document.getElementById("consultation-form");
+
+        toggle.addEventListener("click", function () {
+            form.classList.toggle("open");
+                toggle.classList.toggle("disabled", form.classList.contains("open"));
+            });
+    });
+</script>
+
 	<br>
 	<main>
 	
@@ -84,7 +129,6 @@ Interested in working with Matthea? Reach out to schedule a session or learn mor
 	
 </article>
 	</main>
-	<br>
 	
 	<footer>
 		<p>© Lateral Tutors 2025</p>

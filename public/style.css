@@ -10,7 +10,21 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-	font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: var(--background-image);
+    background-size: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow-y: scroll; /* Show vertical scrollbar */
 }
 
 header
@@ -20,19 +34,6 @@ header
     align-items: center;
 	padding: 10px;
 	font-size: 40px;
-}
-
-#hero {
-    color: var(--colour-primary);
-    padding: 5%;
-    background-color: var(--colour-secondary);
-
-    height: 100%;
-
-    text-align: center;
-
-    display: grid;
-    place-items: center;
 }
 
 .list
@@ -54,10 +55,6 @@ header
     gap: 20px;
 }
 
-article {
-	line-height: 1.5;
-}
-
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1em;
 }
@@ -71,6 +68,10 @@ p, ul, ol {
 }
 
 header {
+	background-color: transparent
+}
+
+footer {
 	color: var(--colour-primary);
 	background-color: var(--colour-secondary);
 }
@@ -93,14 +94,19 @@ details {
 }
 
 body {
-	background: var(--colour-primary);
+	font-family: "Montserrat", sans-serif;
 	color: var(--colour-secondary);
+	background-color: var(--colour-primary);
 }
 
-main {
-	max-width: 800px ;
-	margin: auto ;
-	padding: 20px;
+article {
+	background-color: var(--colour-primary);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 img {
@@ -112,6 +118,7 @@ header h1 {
 }
 
 footer {
+	background-color: transparent;
 	text-align: center ;
 	clear: both ;
 }
@@ -136,4 +143,125 @@ footer {
 }
 #nextart,#prevart {
 	max-width: 33% ;
+}
+
+#hero-title {
+	font-size: 80px;
+	margin-bottom: 10px;
+}
+
+#logo
+{
+	padding: 20px;
+
+    color: var(--colour-primary);
+
+    text-align: center;
+
+    display: grid;
+    place-items: center;
+
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+
+#form
+{
+    background-color: var(--colour-primary);
+	color: var(--colour-secondary);
+    padding: 10px;
+    border-radius: 10px;
+	width: 33%;
+}
+
+#toggle-form
+{
+    cursor: pointer;
+}
+
+#consultation-form
+{
+    max-height: 0;
+    overflow: hidden;
+    transition: width 0.5s ease, padding 0.3s ease;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+}
+
+#consultation-form.open
+{
+    max-height: 1000px; /* large enough to fit content */
+    padding-top: 10px;
+}
+
+input
+{
+    background-color: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    color: var(--colour-secondary);
+    padding: 10px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+::placeholder
+{
+    color: var(--colour-secondary);
+    opacity: 0.5;
+}
+
+textarea
+{
+    background-color: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 10px;
+    width: 80%;
+    height: 200px;
+    color: var(--colour-secondary);
+    padding: 10px;
+    resize: none;
+}
+
+textarea:focus
+{
+    outline: none;
+}
+
+button
+{
+    background-color: var(--colour-secondary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 10px;
+    color:  var(--colour-primary);
+    transition: 0.3s;
+    padding: 10px;
+}
+
+button:hover
+{
+    background-color: var(--colour-primary);
+    color: var(--colour-secondary);
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px; /* or whatever height you prefer */
+}
+
+footer p {
+    margin: 0;
+    line-height: 1;
 }

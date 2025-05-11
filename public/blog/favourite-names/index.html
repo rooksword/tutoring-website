@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1391&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<title>My Favourite Names in Literature! | Lateral Tutors</title>
-	<link rel="canonical" href="http://localhost:1391/">
+	<link rel="canonical" href="https://example.org/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
-	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel='stylesheet' type='text/css' href='/style.css'>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +21,12 @@ Warning: there will be spoilers for every text mentioned!">
 <body>
 	<script>
 		document.documentElement.style.setProperty('--colour-secondary', '#0B61F4');
-		document.documentElement.style.setProperty('--colour-secondary', '#0B61F4');
+		document.documentElement.style.setProperty('--background-image', 'url(\/library.png)');
 	</script>
-
+	
 	<b>
 <header>
-    <a href="/" >Lateral Tutors</a>
+    <a href="https://example.org/" >Lateral Tutors</a>
 
     
 
@@ -43,6 +43,47 @@ Warning: there will be spoilers for every text mentioned!">
     </div>
 </header>
 </b>
+
+	<div id="logo">
+    
+    
+    <h1 id="hero-title">My Favourite Names in Literature!</h1>
+
+    
+    
+    <div id="form">
+        <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
+        <div id="consultation-form">
+            <p></p>
+            <p  id="form-label">Your name:</p>
+            <input type="text" placeholder="How should I call you?"></input>
+            <p></p>
+            <p  id="form-label">Email:</p>
+            <input type="text" placeholder="yourname@email.com"></input>
+            <p></p>
+            <p  id="form-label">Phone:</p>
+            <input type="text" placeholder="+XX XXXX XXXXXX"></input>
+            <p></p>
+            <p  id="form-label">Message:</p>
+            <textarea placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
+            <br>
+            <button style="margin-top: 10px;">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("toggle-form");
+        const form = document.getElementById("consultation-form");
+
+        toggle.addEventListener("click", function () {
+            form.classList.toggle("open");
+                toggle.classList.toggle("disabled", form.classList.contains("open"));
+            });
+    });
+</script>
+
 	<br>
 	<main>
 	
@@ -109,7 +150,6 @@ Warning: there will be spoilers for every text mentioned!">
 
 </article>
 	</main>
-	<br>
 	
 	<footer>
 		<p>© Lateral Tutors 2025</p>
