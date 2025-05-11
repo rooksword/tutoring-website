@@ -1,41 +1,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Lateral Tutors</title>
-	<link>https://lateraltutors.netlify.app/tags/</link>
+	<link>http://localhost:1391/tags/</link>
 	<description>Recent content in Tags on Lateral Tutors</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<copyright>© Lateral Tutors {year}</copyright>
     
-        <atom:link href="https://lateraltutors.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1391/tags/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Blog A</title>
-		<link>https://lateraltutors.netlify.app/blog/blog-a/</link>
+		<link>http://localhost:1391/blog/blog-a/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.netlify.app/blog/blog-a/</guid>
+		<guid>http://localhost:1391/blog/blog-a/</guid>
 		<description>&lt;p&gt;Content in Blog A&amp;hellip;&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Blog B</title>
-		<link>https://lateraltutors.netlify.app/blog/blog-b/</link>
+		<link>http://localhost:1391/blog/blog-b/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.netlify.app/blog/blog-b/</guid>
+		<guid>http://localhost:1391/blog/blog-b/</guid>
 		<description>&lt;p&gt;Content in Blog B&amp;hellip;&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>My Favourite Names in Literature!</title>
-		<link>https://lateraltutors.netlify.app/blog/favourite-names/</link>
+		<link>http://localhost:1391/blog/favourite-names/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.netlify.app/blog/favourite-names/</guid>
+		<guid>http://localhost:1391/blog/favourite-names/</guid>
 		<description>&lt;p&gt;Not so much my favourite names as much as the names which I felt had well chosen by the authors to import a valuable significance to the text.&lt;/p&gt;
 &lt;p&gt;I find the names of the characters can be productive keys to unlock insight into text. Names are often just one or two words yet authors often choose them carefully because of how they will be expected to reflect the character.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: there will be spoilers for every text mentioned!&lt;/strong&gt;&lt;/p&gt;
@@ -95,10 +95,10 @@
 	
 	<item>
 		<title>About</title>
-		<link>https://lateraltutors.netlify.app/about/</link>
+		<link>http://localhost:1391/about/</link>
 		<pubDate>Fri, 09 May 2025 22:54:23 +0100</pubDate>
 		
-		<guid>https://lateraltutors.netlify.app/about/</guid>
+		<guid>http://localhost:1391/about/</guid>
 		<description>&lt;h2 id=&#34;welcome-to-lateral-tutors&#34;&gt;Welcome to Lateral Tutors&lt;/h2&gt;
 &lt;p&gt;Lateral Tutors is a dedicated tutoring network committed to providing high-quality educational support to students of all ages. Our mission is to empower learners by connecting them with experienced tutors who are passionate about teaching and fostering academic growth.&lt;/p&gt;
 &lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
@@ -123,10 +123,10 @@
 	
 	<item>
 		<title>Jordan Guillou</title>
-		<link>https://lateraltutors.netlify.app/tutors/jordan/</link>
+		<link>http://localhost:1391/tutors/jordan/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.netlify.app/tutors/jordan/</guid>
+		<guid>http://localhost:1391/tutors/jordan/</guid>
 		<description>&lt;h1 id=&#34;about-jordan&#34;&gt;About Jordan&lt;/h1&gt;
 &lt;p&gt;Jordan Guillou is a dedicated and experienced English Language and Literature tutor specializing in GCSEs, iGCSEs, and A-levels. With a passion for teaching and a deep understanding of literary analysis and language skills, Jordan helps students develop strong communication abilities and achieve their academic goals.&lt;/p&gt;
 &lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;
@@ -150,10 +150,10 @@
 	
 	<item>
 		<title>Matthea Erasmus</title>
-		<link>https://lateraltutors.netlify.app/tutors/matthea/</link>
+		<link>http://localhost:1391/tutors/matthea/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.netlify.app/tutors/matthea/</guid>
+		<guid>http://localhost:1391/tutors/matthea/</guid>
 		<description>&lt;h1 id=&#34;about-matthea&#34;&gt;About Matthea&lt;/h1&gt;
 &lt;p&gt;Matthea Erasmus is a dedicated and experienced psychology tutor specializing in GCSEs and A-levels. With a passion for teaching and a deep understanding of psychological concepts, Matthea helps students develop a strong foundation in psychology and achieve their academic goals.&lt;/p&gt;
 &lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;

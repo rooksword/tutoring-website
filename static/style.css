@@ -10,6 +10,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+	font-family: "Montserrat", sans-serif;
 }
 
 header
@@ -19,6 +20,19 @@ header
     align-items: center;
 	padding: 10px;
 	font-size: 40px;
+}
+
+#hero {
+    color: var(--colour-primary);
+    padding: 5%;
+    background-color: var(--colour-secondary);
+
+    height: 100%;
+
+    text-align: center;
+
+    display: grid;
+    place-items: center;
 }
 
 .list
@@ -79,7 +93,6 @@ details {
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
 	background: var(--colour-primary);
 	color: var(--colour-secondary);
 }
