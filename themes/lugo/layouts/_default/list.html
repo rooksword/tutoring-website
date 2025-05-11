@@ -1,0 +1,29 @@
+{{ define "title" -}}
+{{ .Title | title }}
+{{- end }}
+{{ define "main" -}}
+{{ .Content }}
+{{- range.Pages }}
+	<li class="list">
+		<!-- {{- if .Param "datesinlist" }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time> &ndash; {{ end -}} -->
+		<a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}
+		{{ if and (eq .Section "tutors") (eq .Kind "page") }}
+			<br>
+			<img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100px; height: 100px; border-radius: 1000px">
+			<br>
+			<small>Subject: {{ .Params.subject }}</small>
+			<br>
+			<small>Level: {{ .Params.level }}</small>
+			<br><br>
+		{{ end }}
+		</a>
+		<!-- {{ .Summary }} -->
+		{{- if .Param "authorsinlist" }}
+		{{ with .Params.authors }}
+			by 
+			{{ delimit . ", " " and " }}
+		{{end}}
+		{{ end -}}
+	</li>
+{{- end }}
+{{- end }}

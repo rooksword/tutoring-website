@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Lateral Tutors'
+
+theme = 'lugo'
+
+copyright = '© Lateral Tutors {year}'
+
+ignoreLogs = ['warning-goldmark-raw-html']
