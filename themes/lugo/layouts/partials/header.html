@@ -1,6 +1,6 @@
 <b>
 <header>
-    <a href="{{ .Site.BaseURL }}" {{ if and (and .File (eq .File.TranslationBaseName "_index")) (not (or (eq .Section "tutors") (eq .Section "blog"))) }}style="text-decoration: underline"{{ end }}>{{ .Site.Title }}</a>
+    <a href="/" {{ if and (and .File (eq .File.TranslationBaseName "_index")) (not (or (eq .Section "tutors") (eq .Section "blog"))) }}style="text-decoration: underline"{{ end }}>{{ .Site.Title }}</a>
 
     <!--
     {{ if not (or (and (and .File (eq .File.TranslationBaseName "_index")) (not (or (eq .Section "tutors") (eq .Section "blog")))) (and (and .File (eq .File.TranslationBaseName "_index")) (eq .Section "tutors")) (and .File (eq .File.TranslationBaseName "about")) (and (and .File (eq .File.TranslationBaseName "_index")) (eq .Section "blog"))) }}
