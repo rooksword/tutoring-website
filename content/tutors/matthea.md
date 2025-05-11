@@ -5,7 +5,7 @@ title = 'Matthea Erasmus'
 subject = 'Psychology'
 level = 'GCSEs and A-levels'
 secondary_color = '#f700ff'
-image = '/matthea.jpg'
+image = 'matthea.jpg'
 +++
 # About Matthea
 

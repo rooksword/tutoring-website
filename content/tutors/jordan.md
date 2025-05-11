@@ -4,7 +4,7 @@ draft = false
 title = 'Jordan Guillou'
 subject = 'English Language and Literature'
 level = 'GCSEs and A-levels'
-image = '/jordan.jpg'
+image = 'jordan.jpg'
 +++
 # About Jordan
 
