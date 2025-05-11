@@ -1,41 +1,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Lateral Tutors</title>
-	<link>http://localhost:1313/tags/</link>
+	<link>https://example.org/tags/</link>
 	<description>Recent content in Tags on Lateral Tutors</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<copyright>© Lateral Tutors {year}</copyright>
     
-        <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Blog A</title>
-		<link>http://localhost:1313/blog/blog-a/</link>
+		<link>https://example.org/blog/blog-a/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/blog/blog-a/</guid>
+		<guid>https://example.org/blog/blog-a/</guid>
 		<description>&lt;p&gt;Content in Blog A&amp;hellip;&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Blog B</title>
-		<link>http://localhost:1313/blog/blog-b/</link>
+		<link>https://example.org/blog/blog-b/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/blog/blog-b/</guid>
+		<guid>https://example.org/blog/blog-b/</guid>
 		<description>&lt;p&gt;Content in Blog B&amp;hellip;&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>My Favourite Names in Literature!</title>
-		<link>http://localhost:1313/blog/favourite-names/</link>
+		<link>https://example.org/blog/favourite-names/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/blog/favourite-names/</guid>
+		<guid>https://example.org/blog/favourite-names/</guid>
 		<description>&lt;p&gt;Not so much my favourite names as much as the names which I felt had well chosen by the authors to import a valuable significance to the text.&lt;/p&gt;
 &lt;p&gt;I find the names of the characters can be productive keys to unlock insight into text. Names are often just one or two words yet authors often choose them carefully because of how they will be expected to reflect the character.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: there will be spoilers for every text mentioned!&lt;/strong&gt;&lt;/p&gt;
@@ -95,10 +95,10 @@
 	
 	<item>
 		<title>About</title>
-		<link>http://localhost:1313/about/</link>
+		<link>https://example.org/about/</link>
 		<pubDate>Fri, 09 May 2025 22:54:23 +0100</pubDate>
 		
-		<guid>http://localhost:1313/about/</guid>
+		<guid>https://example.org/about/</guid>
 		<description>&lt;h2 id=&#34;welcome-to-lateral-tutors&#34;&gt;Welcome to Lateral Tutors&lt;/h2&gt;
 &lt;p&gt;Lateral Tutors is a dedicated tutoring network committed to providing high-quality educational support to students of all ages. Our mission is to empower learners by connecting them with experienced tutors who are passionate about teaching and fostering academic growth.&lt;/p&gt;
 &lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
@@ -123,21 +123,38 @@
 	
 	<item>
 		<title>Jordan Guillou</title>
-		<link>http://localhost:1313/tutors/jordan/</link>
+		<link>https://example.org/tutors/jordan/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/tutors/jordan/</guid>
-		<description>&lt;p&gt;Here are all the blogs&amp;hellip;&lt;/p&gt;
+		<guid>https://example.org/tutors/jordan/</guid>
+		<description>&lt;h1 id=&#34;about-jordan&#34;&gt;About Jordan&lt;/h1&gt;
+&lt;p&gt;Jordan Guillou is a dedicated and experienced English Language and Literature tutor specializing in GCSEs, iGCSEs, and A-levels. With a passion for teaching and a deep understanding of literary analysis and language skills, Jordan helps students develop strong communication abilities and achieve their academic goals.&lt;/p&gt;
+&lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Personalized Learning&lt;/strong&gt;: Jordan tailors his tutoring sessions to meet the unique needs of each student, ensuring that learning styles and pace are accommodated.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comprehensive Coverage&lt;/strong&gt;: From literary analysis to creative writing, Jordan covers all key areas of the curriculum, helping students master both language and literature components.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exam Preparation&lt;/strong&gt;: With a focus on exam techniques and practice, Jordan equips students with the skills and confidence needed to excel in their English exams.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;University Preparation&lt;/strong&gt;: Jordan provides specialized guidance for students preparing for university, helping them develop advanced analytical and writing skills.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EFL Support&lt;/strong&gt;: With experience in teaching English as a foreign language, Jordan can support international students in developing their language proficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-choose-jordan&#34;&gt;Why Choose Jordan?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Expert Knowledge&lt;/strong&gt;: Jordan&amp;rsquo;s extensive knowledge and experience in English Language and Literature make him an ideal tutor for students aiming to achieve high grades.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supportive Environment&lt;/strong&gt;: He creates a supportive and encouraging learning environment, helping students build confidence in their reading, writing, and analytical skills.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proven Success&lt;/strong&gt;: Many of Jordan&amp;rsquo;s students have shown significant improvement in their understanding and performance in English, with successful transitions to university-level study.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h2&gt;
+&lt;p&gt;Interested in working with Jordan? Reach out to schedule a session or learn more about his tutoring services.&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Matthea Erasmus</title>
-		<link>http://localhost:1313/tutors/matthea/</link>
+		<link>https://example.org/tutors/matthea/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/tutors/matthea/</guid>
-		<description>&lt;h1 id=&#34;about-matthea-erasmus&#34;&gt;About Matthea Erasmus&lt;/h1&gt;
+		<guid>https://example.org/tutors/matthea/</guid>
+		<description>&lt;h1 id=&#34;about-matthea&#34;&gt;About Matthea&lt;/h1&gt;
 &lt;p&gt;Matthea Erasmus is a dedicated and experienced psychology tutor specializing in GCSEs and A-levels. With a passion for teaching and a deep understanding of psychological concepts, Matthea helps students develop a strong foundation in psychology and achieve their academic goals.&lt;/p&gt;
 &lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;
 &lt;ul&gt;

@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2025-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog-a/</loc>
+    <loc>https://example.org/blog/blog-a/</loc>
     <lastmod>2025-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog-b/</loc>
+    <loc>https://example.org/blog/blog-b/</loc>
     <lastmod>2025-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/favourite-names/</loc>
+    <loc>https://example.org/blog/favourite-names/</loc>
     <lastmod>2025-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutors/</loc>
+    <loc>https://example.org/tutors/</loc>
     <lastmod>2025-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://example.org/about/</loc>
     <lastmod>2025-05-09T22:54:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://example.org/blog/</loc>
     <lastmod>2024-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutors/jordan/</loc>
+    <loc>https://example.org/tutors/jordan/</loc>
     <lastmod>2024-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutors/matthea/</loc>
+    <loc>https://example.org/tutors/matthea/</loc>
     <lastmod>2024-05-09T23:02:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
