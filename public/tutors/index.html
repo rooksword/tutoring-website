@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<title>Our Tutors | Lateral Tutors</title>
-	<link rel="canonical" href="http://localhost:1313/">
+	<link rel="canonical" href="https://lateraltutors.org/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 
@@ -26,7 +26,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
 	</script>
 	
 	<b>
-<header>
+<header id="header">
     <a href="/" >Lateral Tutors</a>
 
     
@@ -50,12 +50,16 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
     
     <h1 id="hero-title">Our Tutors</h1>
 
+    <div> 
+
     
     
+    </div>
+
     <div id="form">
-        <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
+        <span id="toggle-form" style="display: block; padding: 10px;"><b>Request a FREE consultation ▼</b></span>
+        
         <form id="consultation-form" name="contact-Our Tutors" method="POST" data-netlify="true">
-            <p></p>
             <p id="form-label">Your name:</p>
             <input name="name" type="text" placeholder="How should I call you?"></input>
             <p></p>
@@ -69,6 +73,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
             <textarea name="message" placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
             <br>
             <button style="margin-top: 10px;">Submit</button>
+            <br><br>
         </form>
     </div>
 </div>
@@ -87,31 +92,24 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
 
 	<br>
 	<main>
-	
 	<article>
-	<h1 id="our-tutors">Our Tutors</h1>
+		<h1 id="our-tutors">Our Tutors</h1>
 <p>Welcome to our network of dedicated tutors! Each of our tutors is committed to providing high-quality educational support tailored to your needs. Click on a tutor&rsquo;s name to learn more about their expertise and how to get in touch.</p>
 <h2 id="how-to-contact">How to Contact</h2>
 <p>If you&rsquo;re interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at <a href="mailto:contact@lateraltutors.com">contact@lateraltutors.com</a> for any general inquiries.</p>
 <p>Browse our tutors below and click on their profiles to see more:</p>
 
 
-<div class="filter-chips" data-filter-type="subject">
-    <button class="filter-chip active" data-value="all">All Subjects</button><button class="filter-chip" data-value="English Language">English Language</button><button class="filter-chip" data-value="English Literature">English Literature</button><button class="filter-chip" data-value="Psychology">Psychology</button></div>
 
-<br>
-
-<div class="filter-chips" data-filter-type="level">
-    <button class="filter-chip active" data-value="all">All Levels</button><button class="filter-chip" data-value="GCSEs">GCSEs</button><button class="filter-chip" data-value="A-levels">A-levels</button></div>
 
 <div class="tutor-grid">
-    <div class="tutor-card" data-subjects="English Language|English Literature" data-levels="GCSEs|A-levels">
+    <div class="tutor-card" data-subjects="English Language|English Literature" data-levels="iGCSEs|GCSEs|A-levels">
         <a href="/tutors/jordan/" class="tutor-link">
             <img src="/jordan.jpg" alt="Jordan Guillou Tutoring" class="tutor-image">
             <h3 class="tutor-name">Jordan Guillou</h3>
             <div class="tutor-details">
-                <p class="tutor-subject">Subject: English Language, English Literature</p>
-                <p class="tutor-level">Level: GCSEs, A-levels</p>
+                <p class="tutor-subject">📚 Subject: English Language, English Literature</p>
+                <p class="tutor-level">🎓 Level: iGCSEs, GCSEs, A-levels</p>
             </div>
         </a>
     </div>
@@ -120,8 +118,8 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
             <img src="/matthea.jpg" alt="Matthea Erasmus Tutoring" class="tutor-image">
             <h3 class="tutor-name">Matthea Erasmus</h3>
             <div class="tutor-details">
-                <p class="tutor-subject">Subject: Psychology</p>
-                <p class="tutor-level">Level: GCSEs, A-levels</p>
+                <p class="tutor-subject">📚 Subject: Psychology</p>
+                <p class="tutor-level">🎓 Level: GCSEs, A-levels</p>
             </div>
         </a>
     </div>
@@ -174,9 +172,11 @@ img {
 
 .tutor-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .tutor-card {
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-	
+		
 </article>
 	</main>
 	

@@ -32,14 +32,13 @@
 	<br>
 	{{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
 	<main>
-	<!-- <header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header> -->
 	<article>
-	{{ block "main" . }}
-	{{ .Content }}
-	{{ end }}
-	{{ if and (eq .Section "blog") (.Param "nextprev") }}{{ partial "nextprev.html" . -}}{{ end -}}
-	{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
+		{{ block "main" . }}
+		{{ .Content }}
+		{{ end }}
+		{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
 	</article>
+	{{ if and (eq .Section "blog") (.Param "nextprev") }}{{ partial "nextprev.html" . -}}{{ end -}}
 	</main>
 	{{ block "footer" . }}
 	<footer>

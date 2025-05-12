@@ -3,7 +3,7 @@ date = '2024-05-09T23:02:24+01:00'
 draft = false
 title = 'Jordan Guillou Tutoring'
 subject = ['English Language', 'English Literature']
-level = ['GCSEs', 'A-levels']
+level = ['iGCSEs', 'GCSEs', 'A-levels']
 image = '/jordan.jpg'
 background = '/library.png'
 +++

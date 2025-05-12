@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<title>My Favourite Names in Literature! | Lateral Tutors</title>
-	<link rel="canonical" href="http://localhost:1313/">
+	<link rel="canonical" href="https://lateraltutors.org/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 
@@ -25,7 +25,7 @@ Warning: there will be spoilers for every text mentioned!">
 	</script>
 	
 	<b>
-<header>
+<header id="header">
     <a href="/" >Lateral Tutors</a>
 
     
@@ -49,12 +49,16 @@ Warning: there will be spoilers for every text mentioned!">
     
     <h1 id="hero-title">My Favourite Names in Literature!</h1>
 
+    <div> 
+
     
     
+    </div>
+
     <div id="form">
-        <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
+        <span id="toggle-form" style="display: block; padding: 10px;"><b>Request a FREE consultation ▼</b></span>
+        
         <form id="consultation-form" name="contact-My Favourite Names in Literature!" method="POST" data-netlify="true">
-            <p></p>
             <p id="form-label">Your name:</p>
             <input name="name" type="text" placeholder="How should I call you?"></input>
             <p></p>
@@ -68,6 +72,7 @@ Warning: there will be spoilers for every text mentioned!">
             <textarea name="message" placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
             <br>
             <button style="margin-top: 10px;">Submit</button>
+            <br><br>
         </form>
     </div>
 </div>
@@ -86,10 +91,9 @@ Warning: there will be spoilers for every text mentioned!">
 
 	<br>
 	<main>
-	
 	<article>
-	
-	<p>Not so much my favourite names as much as the names which I felt had well chosen by the authors to import a valuable significance to the text.</p>
+		
+		<p>Not so much my favourite names as much as the names which I felt had well chosen by the authors to import a valuable significance to the text.</p>
 <p>I find the names of the characters can be productive keys to unlock insight into text. Names are often just one or two words yet authors often choose them carefully because of how they will be expected to reflect the character.</p>
 <p><strong>Warning: there will be spoilers for every text mentioned!</strong></p>
 <section class="bg-dark">
@@ -97,7 +101,7 @@ Warning: there will be spoilers for every text mentioned!">
 
 <details>
     <summary>Kurtz from Joseph Conrad&rsquo;s &lsquo;Heart of Darkness&rsquo;</summary>
-    <div><p>Kurtz is the evil at the heart of the jungle in Joseph Conrad’s 1899 novella Heart of Darkness and although the natives of the Congo worship him like a god, everything about him is a contradiction.</p>
+    <div class="dropdown-content"><p>Kurtz is the evil at the heart of the jungle in Joseph Conrad’s 1899 novella Heart of Darkness and although the natives of the Congo worship him like a god, everything about him is a contradiction.</p>
 <blockquote>
 <p>Kurtz — that means short in German — don’t it? Well, the name was as true as everything else in his life — and death. He looked at least seven feet long.</p></blockquote>
 <p>As the narrator Marlow points out, Kurtz’ name contradicts the facts of his life. This irony provokes the reader to ponder what else about Kurtz is a lie? How does Kurtz’ reality match up to his god-like stature?</p>
@@ -105,9 +109,92 @@ Warning: there will be spoilers for every text mentioned!">
 </div>
 </details>
 
+<style>
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 5px;
+    color: var(--colour-secondary);
+}
+
+details summary:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+details .dropdown-content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: height 0.3s ease-out;
+}
+
+details[open] .dropdown-content {
+    height: var(--content-height);
+    padding: 0.5rem;
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--content-height);
+    }
+}
+
+details:not([open]) .dropdown-content {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+</style>
+
+<script>
+function updateHeight(detail) {
+    const content = detail.querySelector('.dropdown-content');
+    const height = content.scrollHeight;
+    content.style.setProperty('--content-height', height + 'px');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+        updateHeight(detail);
+        detail.addEventListener('toggle', function() {
+            if (detail.open) {
+                updateHeight(detail);
+            } else {
+                const content = detail.querySelector('.dropdown-content');
+                
+                content.style.height = content.scrollHeight + 'px';
+                
+                content.offsetHeight;
+                
+                content.style.height = '0px';
+            }
+        });
+    });
+});
+</script>
+
 <details>
     <summary>Victor Frankenstein from Mary Shelley’s ‘Frankenstein’</summary>
-    <div><p>Victor Frankenstein is the original mad scientist whose name is often used to describe his monster instead of him.</p>
+    <div class="dropdown-content"><p>Victor Frankenstein is the original mad scientist whose name is often used to describe his monster instead of him.</p>
 <p><strong>Victor</strong></p>
 <p>At a glance, the name Victor, when taken as a noun, signifies the “winner”. In the case of Frankenstein, Victor does aspire to be a conqueror of ‘the citadel of nature’.</p>
 <p>Another origin point of the name Victor is John Milton’s ‘Paradise Lost’, an epic poem cited throughout the novel by the creature. Milton refers to ‘The Victor’ throughout ‘Paradise Lost’ when referring to God. These facts support the interpretation of the novel that Victor is punished for attempting to be like God.</p>
@@ -121,9 +208,92 @@ Warning: there will be spoilers for every text mentioned!">
 </div>
 </details>
 
+<style>
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 5px;
+    color: var(--colour-secondary);
+}
+
+details summary:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+details .dropdown-content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: height 0.3s ease-out;
+}
+
+details[open] .dropdown-content {
+    height: var(--content-height);
+    padding: 0.5rem;
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--content-height);
+    }
+}
+
+details:not([open]) .dropdown-content {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+</style>
+
+<script>
+function updateHeight(detail) {
+    const content = detail.querySelector('.dropdown-content');
+    const height = content.scrollHeight;
+    content.style.setProperty('--content-height', height + 'px');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+        updateHeight(detail);
+        detail.addEventListener('toggle', function() {
+            if (detail.open) {
+                updateHeight(detail);
+            } else {
+                const content = detail.querySelector('.dropdown-content');
+                
+                content.style.height = content.scrollHeight + 'px';
+                
+                content.offsetHeight;
+                
+                content.style.height = '0px';
+            }
+        });
+    });
+});
+</script>
+
 <details>
     <summary>Jay Gatsby from F. Scott Fitzgerald’s ‘The Great Gatsby’</summary>
-    <div><p>Jay Gatsby’s real name is James Gatz. James, meaning “supplanter”, makes sense in this light as Gatsby can be said to takeover an invented character.</p>
+    <div class="dropdown-content"><p>Jay Gatsby’s real name is James Gatz. James, meaning “supplanter”, makes sense in this light as Gatsby can be said to takeover an invented character.</p>
 <p>Jay is the surname of America’s first Chief of Justice, John Jay, which could allude to Gatsby’s compromised yet honest ambition.</p>
 <p>Jay is also a common term for someone who is foolish or talkative. Gatsby could easily be described as foolish in his conflation of money and love. Likewise, conversation is a tool employed by Gatsby who affects an English accent and exhausts the phrase ‘old sport’.</p>
 <p>“Gat” is a 1920s slang expression for a pistol (specifically a revolver). This lends an ironic implication to Gatsby’s death by shooting, his mob connections, and his illegal money-making schemes.</p>
@@ -134,22 +304,188 @@ Warning: there will be spoilers for every text mentioned!">
 </div>
 </details>
 
+<style>
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 5px;
+    color: var(--colour-secondary);
+}
+
+details summary:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+details .dropdown-content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: height 0.3s ease-out;
+}
+
+details[open] .dropdown-content {
+    height: var(--content-height);
+    padding: 0.5rem;
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--content-height);
+    }
+}
+
+details:not([open]) .dropdown-content {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+</style>
+
+<script>
+function updateHeight(detail) {
+    const content = detail.querySelector('.dropdown-content');
+    const height = content.scrollHeight;
+    content.style.setProperty('--content-height', height + 'px');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+        updateHeight(detail);
+        detail.addEventListener('toggle', function() {
+            if (detail.open) {
+                updateHeight(detail);
+            } else {
+                const content = detail.querySelector('.dropdown-content');
+                
+                content.style.height = content.scrollHeight + 'px';
+                
+                content.offsetHeight;
+                
+                content.style.height = '0px';
+            }
+        });
+    });
+});
+</script>
+
 <details>
     <summary>Othello from Shakespeare’s ‘Othello’</summary>
-    <div><p>I don’t have much to add for this section that hasn’t been covered well by the Bill / Shakespeare Project’s article on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!</p>
+    <div class="dropdown-content"><p>I don’t have much to add for this section that hasn’t been covered well by the Bill / Shakespeare Project’s article on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!</p>
 <p><a href="https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/">https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/</a></p>
 </div>
 </details>
 
+<style>
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 5px;
+    color: var(--colour-secondary);
+}
+
+details summary:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+details .dropdown-content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: height 0.3s ease-out;
+}
+
+details[open] .dropdown-content {
+    height: var(--content-height);
+    padding: 0.5rem;
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--content-height);
+    }
+}
+
+details:not([open]) .dropdown-content {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+</style>
+
+<script>
+function updateHeight(detail) {
+    const content = detail.querySelector('.dropdown-content');
+    const height = content.scrollHeight;
+    content.style.setProperty('--content-height', height + 'px');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+        updateHeight(detail);
+        detail.addEventListener('toggle', function() {
+            if (detail.open) {
+                updateHeight(detail);
+            } else {
+                const content = detail.querySelector('.dropdown-content');
+                
+                content.style.height = content.scrollHeight + 'px';
+                
+                content.offsetHeight;
+                
+                content.style.height = '0px';
+            }
+        });
+    });
+});
+</script>
+
 
 </section>
 
-	
+		
+		
+</article>
 	<div id="nextprev"><a href="/blog/blog-b/"><div id="nextart">Next:<br>Blog B</div></a>
 </div>
-
-</article>
-	</main>
+</main>
 	
 	<footer>
 		<p>© Lateral Tutors 2025</p>

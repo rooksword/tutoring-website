@@ -1,4 +1,87 @@
 <details>
     <summary>{{ .Get "title" | default "Click to expand" | markdownify }}</summary>
-    <div>{{ .Inner | markdownify }}</div>
+    <div class="dropdown-content">{{ .Inner | markdownify }}</div>
 </details>
+
+<style>
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 5px;
+    color: var(--colour-secondary);
+}
+
+details summary:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+details .dropdown-content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: height 0.3s ease-out;
+}
+
+details[open] .dropdown-content {
+    height: var(--content-height);
+    padding: 0.5rem;
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--content-height);
+    }
+}
+
+details:not([open]) .dropdown-content {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+</style>
+
+<script>
+function updateHeight(detail) {
+    const content = detail.querySelector('.dropdown-content');
+    const height = content.scrollHeight;
+    content.style.setProperty('--content-height', height + 'px');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+        updateHeight(detail);
+        detail.addEventListener('toggle', function() {
+            if (detail.open) {
+                updateHeight(detail);
+            } else {
+                const content = detail.querySelector('.dropdown-content');
+                // Set the height to the current height before transitioning to 0
+                content.style.height = content.scrollHeight + 'px';
+                // Force a reflow
+                content.offsetHeight;
+                // Now set to 0 to trigger the transition
+                content.style.height = '0px';
+            }
+        });
+    });
+});
+</script>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.147.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.147.2">
 	<title>Lateral Tutors</title>
-	<link rel="canonical" href="http://localhost:1313/">
+	<link rel="canonical" href="https://lateraltutors.org/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 
@@ -26,7 +26,7 @@ Click the links below to see our tutors, read about us, and find blogs posts wri
 	</script>
 	
 	<b>
-<header>
+<header id="header">
     <a href="/" style="text-decoration: underline">Lateral Tutors</a>
 
     
@@ -50,12 +50,16 @@ Click the links below to see our tutors, read about us, and find blogs posts wri
     
     <h1 id="hero-title">Lateral Tutors</h1>
 
+    <div> 
+
     
     
+    </div>
+
     <div id="form">
-        <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
+        <span id="toggle-form" style="display: block; padding: 10px;"><b>Request a FREE consultation ▼</b></span>
+        
         <form id="consultation-form" name="contact-Lateral Tutors" method="POST" data-netlify="true">
-            <p></p>
             <p id="form-label">Your name:</p>
             <input name="name" type="text" placeholder="How should I call you?"></input>
             <p></p>
@@ -69,6 +73,7 @@ Click the links below to see our tutors, read about us, and find blogs posts wri
             <textarea name="message" placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
             <br>
             <button style="margin-top: 10px;">Submit</button>
+            <br><br>
         </form>
     </div>
 </div>
@@ -87,40 +92,81 @@ Click the links below to see our tutors, read about us, and find blogs posts wri
 
 	<br>
 	<main>
-	
 	<article>
-	<h1 id="welcome-to-lateral-tutors">Welcome to Lateral Tutors</h1>
+		<h1 id="welcome-to-lateral-tutors">Welcome to Lateral Tutors</h1>
 <p>Lateral Tutors is a dedicated tutoring network committed to providing high-quality educational support to students of all ages. Our mission is to empower learners by connecting them with experienced tutors who are passionate about teaching and fostering academic growth.</p>
 <p>Click the links below to see our tutors, read about us, and find blogs posts written by us:</p>
 
-	<li class="list">
+
+<div class="tutor-grid">
+    <div class="tutor-card">
+        <a href="/tutors/" class="tutor-link">
+            <h3 class="tutor-name">
+                
+                    👩‍🏫
+                
+                Our Tutors
+            </h3>
+        </a>
+    </div>
+    <div class="tutor-card">
+        <a href="/about/" class="tutor-link">
+            <h3 class="tutor-name">
+                
+                    ℹ️
+                
+                About
+            </h3>
+        </a>
+    </div>
+    <div class="tutor-card">
+        <a href="/blog/" class="tutor-link">
+            <h3 class="tutor-name">
+                
+                    📝
+                
+                Blogs
+            </h3>
+        </a>
+    </div>
+</div>
+
+<style>
+.tutor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tutor-card {
+    background-color: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.tutor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+
+.tutor-link {
+    text-decoration: none;
+    color: var(--colour-secondary);
+    display: block;
+    padding: 1rem;
+}
+
+.tutor-name {
+    margin: 1rem 0;
+    text-align: center;
+}
+</style>
 		
-		<a href="/tutors/" style="text-decoration: none; color: inherit;"><span style="text-decoration: underline;">Our Tutors</span>
-		
-		</a>
-		<br><br>
-		
-		
-		</li>
-	<li class="list">
-		
-		<a href="/about/" style="text-decoration: none; color: inherit;"><span style="text-decoration: underline;">About</span>
-		
-		</a>
-		<br><br>
-		
-		
-		</li>
-	<li class="list">
-		
-		<a href="/blog/" style="text-decoration: none; color: inherit;"><span style="text-decoration: underline;">Blogs</span>
-		
-		</a>
-		<br><br>
-		
-		
-		</li>
-	
 </article>
 	</main>
 	

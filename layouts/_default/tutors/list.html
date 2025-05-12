@@ -5,6 +5,8 @@
 {{ define "main" -}}
 {{ .Content }}
 
+<!--
+
 <div class="filter-chips" data-filter-type="subject">
     <button class="filter-chip active" data-value="all">All Subjects</button>
     {{- $subjects := slice -}}
@@ -33,6 +35,8 @@
     {{- end -}}
 </div>
 
+-->
+
 <div class="tutor-grid">
     {{- range .Pages }}
     <div class="tutor-card" data-subjects="{{ delimit .Params.subject "|" }}" data-levels="{{ delimit .Params.level "|" }}">
@@ -40,8 +44,8 @@
             <img src="{{ .Params.image }}" alt="{{ .Title }}" class="tutor-image">
             <h3 class="tutor-name">{{ replace .Title " Tutoring" "" }}</h3>
             <div class="tutor-details">
-                <p class="tutor-subject">Subject: {{ delimit .Params.subject ", " }}</p>
-                <p class="tutor-level">Level: {{ delimit .Params.level ", " }}</p>
+                <p class="tutor-subject">📚 Subject: {{ delimit .Params.subject ", " }}</p>
+                <p class="tutor-level">🎓 Level: {{ delimit .Params.level ", " }}</p>
             </div>
         </a>
     </div>
@@ -95,9 +99,11 @@ img {
 
 .tutor-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .tutor-card {

@@ -1,5 +1,5 @@
 <b>
-<header>
+<header id="header">
     <a href="{{ "/" | relURL }}" {{ if and (and .File (eq .File.TranslationBaseName "_index")) (not (or (eq .Section "tutors") (eq .Section "blog"))) }}style="text-decoration: underline"{{ end }}>{{ .Site.Title }}</a>
 
     <!--

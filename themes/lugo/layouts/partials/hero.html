@@ -1,18 +1,55 @@
 <div id="logo">
     {{ if and (eq .Section "tutors") (ne .Kind "section") }}
-    <a href="#"><img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 200px; height: 200px; border-radius: 1000px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);"><br></a>
+    <a href="#"><img id="profile" src="{{ .Params.image }}" alt="{{ .Title }}"><br></a>
     {{ end }}
     
     <h1 id="hero-title">{{ .Title }}</h1>
 
+    <div> <!-- Subject and Level -->
+
     {{ if and (eq .Section "tutors") (ne .Kind "section") }}
-    <h2>{{ .Params.Subject}} at {{ .Params.Level}}</h2>
+        {{ $subjects := .Params.Subject }}
+        {{ $subjectStr := "" }}
+        {{ if eq (len $subjects) 1 }}
+            {{ $subjectStr = index $subjects 0 }}
+        {{ else if eq (len $subjects) 2 }}
+            {{ $subjectStr = printf "%s and %s" (index $subjects 0) (index $subjects 1) }}
+        {{ else }}
+            {{ range $i, $subject := first (sub (len $subjects) 1) $subjects }}
+                {{ if eq $i 0 }}
+                    {{ $subjectStr = $subject }}
+                {{ else }}
+                    {{ $subjectStr = printf "%s, %s" $subjectStr $subject }}
+                {{ end }}
+            {{ end }}
+            {{ $subjectStr = printf "%s, and %s" $subjectStr (index $subjects (sub (len $subjects) 1)) }}
+        {{ end }}
+
+        {{ $levels := .Params.Level }}
+        {{ $levelStr := "" }}
+        {{ if eq (len $levels) 1 }}
+            {{ $levelStr = index $levels 0 }}
+        {{ else if eq (len $levels) 2 }}
+            {{ $levelStr = printf "%s and %s" (index $levels 0) (index $levels 1) }}
+        {{ else }}
+            {{ range $i, $level := first (sub (len $levels) 1) $levels }}
+                {{ if eq $i 0 }}
+                    {{ $levelStr = $level }}
+                {{ else }}
+                    {{ $levelStr = printf "%s, %s" $levelStr $level }}
+                {{ end }}
+            {{ end }}
+            {{ $levelStr = printf "%s, and %s" $levelStr (index $levels (sub (len $levels) 1)) }}
+        {{ end }}
+        <h2>{{ $subjectStr }} at {{ $levelStr }}</h2>
     {{ end }}
     
+    </div>
+
     <div id="form">
-        <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
+        <span id="toggle-form" style="display: block; padding: 10px;"><b>Request a FREE consultation ▼</b></span>
+        
         <form id="consultation-form" name="contact-{{ .Title }}" method="POST" data-netlify="true">
-            <p></p>
             <p id="form-label">Your name:</p>
             <input name="name" type="text" placeholder="How should I call you?"></input>
             <p></p>
@@ -26,6 +63,7 @@
             <textarea name="message" placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
             <br>
             <button style="margin-top: 10px;">Submit</button>
+            <br><br>
         </form>
     </div>
 </div>

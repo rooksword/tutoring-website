@@ -1,0 +1,62 @@
+{{ define "title" -}}
+{{ .Title | title }}
+{{- end }}
+
+{{ define "main" -}}
+{{ .Content }}
+
+<div class="tutor-grid">
+    {{- range .Pages }}
+    <div class="tutor-card">
+        <a href="{{ .RelPermalink }}" class="tutor-link">
+            <h3 class="tutor-name">
+                {{ if eq .Title "Our Tutors" }}
+                    👩‍🏫
+                {{ else if eq .Title "About" }}
+                    ℹ️
+                {{ else if eq .Title "Blogs" }}
+                    📝
+                {{ end }}
+                {{ .Title }}
+            </h3>
+        </a>
+    </div>
+    {{- end }}
+</div>
+
+<style>
+.tutor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tutor-card {
+    background-color: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.tutor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+
+.tutor-link {
+    text-decoration: none;
+    color: var(--colour-secondary);
+    display: block;
+    padding: 1rem;
+}
+
+.tutor-name {
+    margin: 1rem 0;
+    text-align: center;
+}
+</style>
+{{- end }}
