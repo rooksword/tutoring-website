@@ -6,7 +6,7 @@
 {{- range.Pages }}
 	<li class="list">
 		<!-- {{- if .Param "datesinlist" }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time> &ndash; {{ end -}} -->
-		<a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}
+		<a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;"><span style="text-decoration: underline;">{{ .Title }}</span>
 		{{ if and (eq .Section "tutors") (eq .Kind "page") }}
 			<br>
 			<img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100px; height: 100px; border-radius: 1000px">

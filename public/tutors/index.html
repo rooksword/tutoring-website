@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<title>Our Tutors | Lateral Tutors</title>
-	<link rel="canonical" href="https://example.org/">
+	<link rel="canonical" href="http://localhost:1313/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 
@@ -27,7 +27,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
 	
 	<b>
 <header>
-    <a href="https://example.org/" >Lateral Tutors</a>
+    <a href="/" >Lateral Tutors</a>
 
     
 
@@ -54,7 +54,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
     
     <div id="form">
         <span id = "toggle-form"><b>Request a FREE consultation ▼</b></span>
-        <div id="consultation-form">
+        <form id="consultation-form" name="contact" method="POST" data-netlify="true">
             <p></p>
             <p  id="form-label">Your name:</p>
             <input type="text" placeholder="How should I call you?"></input>
@@ -69,7 +69,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
             <textarea placeholder="Please briefly detail your child's school year, subjects / topics they need help with, exam board, preferred times, etc."></textarea>
             <br>
             <button style="margin-top: 10px;">Submit</button>
-        </div>
+        </form>
     </div>
 </div>
 
@@ -95,38 +95,206 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
 <p>If you&rsquo;re interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at <a href="mailto:contact@lateraltutors.com">contact@lateraltutors.com</a> for any general inquiries.</p>
 <p>Browse our tutors below and click on their profiles to see more:</p>
 
-	<li class="list">
-		
-		<a href="/tutors/jordan/" style="text-decoration: none; color: inherit;">Jordan Guillou Tutoring
-		
-			<br>
-			<img src="/jordan.jpg" alt="Jordan Guillou Tutoring" style="width: 100px; height: 100px; border-radius: 1000px">
-			<br>
-			<small>Subject: English Language and Literature</small>
-			<br>
-			<small>Level: GCSEs and A-levels</small>
-		
-		</a>
-		<br><br>
-		
-		
-		</li>
-	<li class="list">
-		
-		<a href="/tutors/matthea/" style="text-decoration: none; color: inherit;">Matthea Erasmus Tutoring
-		
-			<br>
-			<img src="/matthea.jpg" alt="Matthea Erasmus Tutoring" style="width: 100px; height: 100px; border-radius: 1000px">
-			<br>
-			<small>Subject: Psychology</small>
-			<br>
-			<small>Level: GCSEs and A-levels</small>
-		
-		</a>
-		<br><br>
-		
-		
-		</li>
+
+<div class="filter-chips" data-filter-type="subject">
+    <button class="filter-chip active" data-value="all">All Subjects</button><button class="filter-chip" data-value="English Language">English Language</button><button class="filter-chip" data-value="English Literature">English Literature</button><button class="filter-chip" data-value="Psychology">Psychology</button></div>
+
+<br>
+
+<div class="filter-chips" data-filter-type="level">
+    <button class="filter-chip active" data-value="all">All Levels</button><button class="filter-chip" data-value="GCSEs">GCSEs</button><button class="filter-chip" data-value="A-levels">A-levels</button></div>
+
+<div class="tutor-grid">
+    <div class="tutor-card" data-subjects="English Language|English Literature" data-levels="GCSEs|A-levels">
+        <a href="/tutors/jordan/" class="tutor-link">
+            <img src="/jordan.jpg" alt="Jordan Guillou Tutoring" class="tutor-image">
+            <h3 class="tutor-name">Jordan Guillou</h3>
+            <div class="tutor-details">
+                <p class="tutor-subject">Subject: English Language, English Literature</p>
+                <p class="tutor-level">Level: GCSEs, A-levels</p>
+            </div>
+        </a>
+    </div>
+    <div class="tutor-card" data-subjects="Psychology" data-levels="GCSEs|A-levels">
+        <a href="/tutors/matthea/" class="tutor-link">
+            <img src="/matthea.jpg" alt="Matthea Erasmus Tutoring" class="tutor-image">
+            <h3 class="tutor-name">Matthea Erasmus</h3>
+            <div class="tutor-details">
+                <p class="tutor-subject">Subject: Psychology</p>
+                <p class="tutor-level">Level: GCSEs, A-levels</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<style>
+img {
+    border: 2px solid var(--colour-secondary);
+}
+
+.filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.filter-chip {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--colour-secondary);
+    border-radius: 20px;
+    background: var(--colour-primary);
+    color: var(--colour-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-chip:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+.filter-chip.active {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+.filter-chip.active:not([data-value="all"]) {
+    position: relative;
+    padding-right: 2rem;
+}
+
+.filter-chip.active:not([data-value="all"])::after {
+    content: "×";
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tutor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.tutor-card {
+    background-color: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.tutor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+
+.tutor-link {
+    text-decoration: none;
+    color: var(--colour-secondary);
+    display: block;
+    padding: 1rem;
+}
+
+.tutor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.tutor-name {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.tutor-details {
+    text-align: center;
+}
+
+.tutor-subject, .tutor-level {
+    margin: 0.5rem 0;
+    color: var(--colour-secondary);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterGroups = document.querySelectorAll('.filter-chips');
+    const tutorCards = document.querySelectorAll('.tutor-card');
+    const selectedFilters = {
+        subject: new Set(['all']),
+        level: new Set(['all'])
+    };
+
+    function updateFilters() {
+        
+        filterGroups.forEach(group => {
+            const filterType = group.dataset.filterType;
+            group.querySelectorAll('.filter-chip').forEach(chip => {
+                const value = chip.dataset.value;
+                if (selectedFilters[filterType].has(value)) {
+                    chip.classList.add('active');
+                } else {
+                    chip.classList.remove('active');
+                }
+            });
+        });
+
+        
+        tutorCards.forEach(card => {
+            const showCard = ['subject', 'level'].every(filterType => {
+                const selectedValues = selectedFilters[filterType];
+                if (selectedValues.has('all')) return true;
+                
+                const cardValues = card.dataset[filterType + 's'].split('|');
+                return Array.from(selectedValues).every(value => 
+                    cardValues.includes(value)
+                );
+            });
+            
+            card.style.display = showCard ? 'block' : 'none';
+        });
+    }
+
+    filterGroups.forEach(group => {
+        const filterType = group.dataset.filterType;
+        group.querySelectorAll('.filter-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                const value = chip.dataset.value;
+
+                if (value === 'all') {
+                    if (selectedFilters[filterType].has('all')) {
+                        selectedFilters[filterType].clear();
+                        selectedFilters[filterType].add('all');
+                    } else {
+                        selectedFilters[filterType].clear();
+                        selectedFilters[filterType].add('all');
+                    }
+                } else {
+                    selectedFilters[filterType].delete('all');
+                    if (selectedFilters[filterType].has(value)) {
+                        selectedFilters[filterType].delete(value);
+                        
+                        if (selectedFilters[filterType].size === 0) {
+                            selectedFilters[filterType].add('all');
+                        }
+                    } else {
+                        selectedFilters[filterType].add(value);
+                    }
+                }
+
+                updateFilters();
+            });
+        });
+    });
+});
+</script>
 	
 </article>
 	</main>

@@ -2,8 +2,8 @@
 date = '2024-05-09T23:02:24+01:00'
 draft = false
 title = 'Matthea Erasmus Tutoring'
-subject = 'Psychology'
-level = 'GCSEs and A-levels'
+subject = ['Psychology']
+level = ['GCSEs', 'A-levels']
 secondary_color = '#f700ff'
 image = '/matthea.jpg'
 background = '/brain.png'

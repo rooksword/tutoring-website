@@ -1,0 +1,219 @@
+{{ define "title" -}}
+{{ .Title | title }}
+{{- end }}
+
+{{ define "main" -}}
+{{ .Content }}
+
+<div class="filter-chips" data-filter-type="subject">
+    <button class="filter-chip active" data-value="all">All Subjects</button>
+    {{- $subjects := slice -}}
+    {{- range .Pages -}}
+        {{- range .Params.subject -}}
+            {{- $subjects = $subjects | append . -}}
+        {{- end -}}
+    {{- end -}}
+    {{- range uniq $subjects -}}
+    <button class="filter-chip" data-value="{{ . }}">{{ . }}</button>
+    {{- end -}}
+</div>
+
+<br>
+
+<div class="filter-chips" data-filter-type="level">
+    <button class="filter-chip active" data-value="all">All Levels</button>
+    {{- $levels := slice -}}
+    {{- range .Pages -}}
+        {{- range .Params.level -}}
+            {{- $levels = $levels | append . -}}
+        {{- end -}}
+    {{- end -}}
+    {{- range uniq $levels -}}
+    <button class="filter-chip" data-value="{{ . }}">{{ . }}</button>
+    {{- end -}}
+</div>
+
+<div class="tutor-grid">
+    {{- range .Pages }}
+    <div class="tutor-card" data-subjects="{{ delimit .Params.subject "|" }}" data-levels="{{ delimit .Params.level "|" }}">
+        <a href="{{ .RelPermalink }}" class="tutor-link">
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="tutor-image">
+            <h3 class="tutor-name">{{ replace .Title " Tutoring" "" }}</h3>
+            <div class="tutor-details">
+                <p class="tutor-subject">Subject: {{ delimit .Params.subject ", " }}</p>
+                <p class="tutor-level">Level: {{ delimit .Params.level ", " }}</p>
+            </div>
+        </a>
+    </div>
+    {{- end }}
+</div>
+
+<style>
+img {
+    border: 2px solid var(--colour-secondary);
+}
+
+.filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.filter-chip {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--colour-secondary);
+    border-radius: 20px;
+    background: var(--colour-primary);
+    color: var(--colour-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-chip:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+.filter-chip.active {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+.filter-chip.active:not([data-value="all"]) {
+    position: relative;
+    padding-right: 2rem;
+}
+
+.filter-chip.active:not([data-value="all"])::after {
+    content: "×";
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tutor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.tutor-card {
+    background-color: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.tutor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+
+.tutor-link {
+    text-decoration: none;
+    color: var(--colour-secondary);
+    display: block;
+    padding: 1rem;
+}
+
+.tutor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.tutor-name {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.tutor-details {
+    text-align: center;
+}
+
+.tutor-subject, .tutor-level {
+    margin: 0.5rem 0;
+    color: var(--colour-secondary);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterGroups = document.querySelectorAll('.filter-chips');
+    const tutorCards = document.querySelectorAll('.tutor-card');
+    const selectedFilters = {
+        subject: new Set(['all']),
+        level: new Set(['all'])
+    };
+
+    function updateFilters() {
+        // Update chip active states
+        filterGroups.forEach(group => {
+            const filterType = group.dataset.filterType;
+            group.querySelectorAll('.filter-chip').forEach(chip => {
+                const value = chip.dataset.value;
+                if (selectedFilters[filterType].has(value)) {
+                    chip.classList.add('active');
+                } else {
+                    chip.classList.remove('active');
+                }
+            });
+        });
+
+        // Update card visibility
+        tutorCards.forEach(card => {
+            const showCard = ['subject', 'level'].every(filterType => {
+                const selectedValues = selectedFilters[filterType];
+                if (selectedValues.has('all')) return true;
+                
+                const cardValues = card.dataset[filterType + 's'].split('|');
+                return Array.from(selectedValues).every(value => 
+                    cardValues.includes(value)
+                );
+            });
+            
+            card.style.display = showCard ? 'block' : 'none';
+        });
+    }
+
+    filterGroups.forEach(group => {
+        const filterType = group.dataset.filterType;
+        group.querySelectorAll('.filter-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                const value = chip.dataset.value;
+
+                if (value === 'all') {
+                    if (selectedFilters[filterType].has('all')) {
+                        selectedFilters[filterType].clear();
+                        selectedFilters[filterType].add('all');
+                    } else {
+                        selectedFilters[filterType].clear();
+                        selectedFilters[filterType].add('all');
+                    }
+                } else {
+                    selectedFilters[filterType].delete('all');
+                    if (selectedFilters[filterType].has(value)) {
+                        selectedFilters[filterType].delete(value);
+                        // If no values are selected, show all
+                        if (selectedFilters[filterType].size === 0) {
+                            selectedFilters[filterType].add('all');
+                        }
+                    } else {
+                        selectedFilters[filterType].add(value);
+                    }
+                }
+
+                updateFilters();
+            });
+        });
+    });
+});
+</script>
+{{- end }}
