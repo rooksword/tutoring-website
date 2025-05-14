@@ -102,7 +102,6 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 2rem 0;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -112,6 +111,19 @@ img {
     border-radius: 10px;
     overflow: hidden;
     transition: 0.2s;
+    width: 250px;
+}
+
+@media (max-width: 750px) {
+    .tutor-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    
+    .tutor-card {
+
+        margin: 0 auto;
+    }
 }
 
 .tutor-card:hover {
