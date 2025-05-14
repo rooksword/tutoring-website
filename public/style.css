@@ -61,11 +61,31 @@ header
     gap: 20px;
 }
 
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+thead {
+    background-color: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8dfcc;
+}
+
+tbody tr:nth-child(odd) {
+    
+    color: var(--colour-secondary);
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1em;
 }
 
-a, p, ul, ol, span, input, textarea, button {
+div, a, p, ul, ol, span, input, textarea, button {
 	font-size: 20px;
 }
 

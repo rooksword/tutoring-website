@@ -1,47 +1,305 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Lateral Tutors</title>
-	<link>http://localhost:1313/categories/</link>
+	<link>https://lateraltutors.org/categories/</link>
 	<description>Recent content in Categories on Lateral Tutors</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<copyright>© Lateral Tutors {year}</copyright>
     
-        <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://lateraltutors.org/categories/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
-		<title>Blog A</title>
-		<link>http://localhost:1313/blog/blog-a/</link>
+		<title>Definitive List of Essay Vocabulary</title>
+		<link>https://lateraltutors.org/blog/essay-vocab/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/blog/blog-a/</guid>
-		<description>&lt;p&gt;Content in Blog A&amp;hellip;&lt;/p&gt;
+		<guid>https://lateraltutors.org/blog/essay-vocab/</guid>
+		<description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;This guide is aimed at providing GCSE level students with a plethora of vocabulary which they can employ in their writing. As well as a list of words, I’ve provided a short explanation for how these words could be used.&lt;/p&gt;
+&lt;p&gt;As a general note, if you are in need of an alternative for any word / phrase, search &lt;a href=&#34;https://www.powerthesaurus.org/&#34;&gt;PowerThesaurus&lt;/a&gt;. I use this website often and you can use it to find synonyms as well as antonyms. If you are writing in Microsoft Word, you can also right-click a word to find synonyms quickly.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://perfectgrade.wordpress.com/wp-content/uploads/2024/02/image.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;referencing-the-writer&#34;&gt;Referencing the Writer&lt;/h3&gt;
+&lt;p&gt;You should not capitalize whichever word you use to refer to the writer unless it is their surname (Shakespeare). You will almost never reference the author with only their first name (William) although you can use it alongside their surname (William Shakespeare). Only use ‘playwright’ for plays and ‘poet’ for poems. As a general rule, if you have referred to the author in a specific way at the top of a paragraph, for the rest of that paragraph you may use he / she / they as long as you are certain that the reader will not be confused as to whom you are referring to.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The author&lt;/li&gt;
+&lt;li&gt;The writer&lt;/li&gt;
+&lt;li&gt;Shakespeare&lt;/li&gt;
+&lt;li&gt;The playwright&lt;/li&gt;
+&lt;li&gt;The narrator&lt;/li&gt;
+&lt;li&gt;The poet&lt;/li&gt;
+&lt;li&gt;He / she / they&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;introducing-a-point&#34;&gt;Introducing a Point&lt;/h2&gt;
+&lt;p&gt;Each of these words / phrases makes use of a metaphor which aims to describe how the author and their text interact with the reader. These metaphors range from the common (‘shows’ is often used because readers often visualise the text in their minds) to the specific (‘depicts’ should only be used when the author is creating a more vivid image as a painter would). If you are confused as to how any of these words may be used in sentence, you can Google ‘word + definition’ which should give you the definition and example sentences.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shows&lt;/li&gt;
+&lt;li&gt;Illustrates&lt;/li&gt;
+&lt;li&gt;Exemplifies&lt;/li&gt;
+&lt;li&gt;Highlights&lt;/li&gt;
+&lt;li&gt;Demonstrates&lt;/li&gt;
+&lt;li&gt;Clarifies&lt;/li&gt;
+&lt;li&gt;Brings to light&lt;/li&gt;
+&lt;li&gt;Shines light on&lt;/li&gt;
+&lt;li&gt;Serves to&lt;/li&gt;
+&lt;li&gt;Acts as&lt;/li&gt;
+&lt;li&gt;Displays&lt;/li&gt;
+&lt;li&gt;Exhibits – express something clearly &lt;em&gt;or&lt;/em&gt; show as a sign or symptom&lt;/li&gt;
+&lt;li&gt;Establishes&lt;/li&gt;
+&lt;li&gt;Reveals&lt;/li&gt;
+&lt;li&gt;Conveys – communicate a message or information &lt;em&gt;or&lt;/em&gt; make an idea known / understandable&lt;/li&gt;
+&lt;li&gt;Portrays – describe something in a particular way&lt;/li&gt;
+&lt;li&gt;Indicates&lt;/li&gt;
+&lt;li&gt;Illuminates – shines a light on something that was previously in the dark&lt;/li&gt;
+&lt;li&gt;Underlines&lt;/li&gt;
+&lt;li&gt;Foregrounds – brings an element from the background to the foreground&lt;/li&gt;
+&lt;li&gt;Expands upon&lt;/li&gt;
+&lt;li&gt;Depicts – to portray in words &lt;em&gt;or&lt;/em&gt; represent by an art form&lt;/li&gt;
+&lt;li&gt;Elicits – to evoke or draw out (something) from (someone)&lt;/li&gt;
+&lt;li&gt;Disproves – shows a belief or theory to be incorrect&lt;/li&gt;
+&lt;li&gt;Supplements – to add to an idea&lt;/li&gt;
+&lt;li&gt;Confirms&lt;/li&gt;
+&lt;li&gt;Asserts&lt;/li&gt;
+&lt;li&gt;Seeks to&lt;/li&gt;
+&lt;li&gt;Aims to&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;introducing-and-concluding&#34;&gt;Introducing and Concluding&lt;/h2&gt;
+&lt;p&gt;My main advice for writing introductions and conclusions is that it is often helpful to look to the introduction / title / conclusion of the text itself. Your essay’s structure may benefit from chronological (in order) analysis of the text.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To conclude&lt;/li&gt;
+&lt;li&gt;In summary&lt;/li&gt;
+&lt;li&gt;In order to&lt;/li&gt;
+&lt;li&gt;Ultimately&lt;/li&gt;
+&lt;li&gt;For the purpose of&lt;/li&gt;
+&lt;li&gt;The object of which is to&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;final-notes&#34;&gt;Final Notes&lt;/h2&gt;
+&lt;p&gt;This webpage is only a starting point and you will probably want to add to or change this list as you broaden your vocabulary and hone your own style. I would also remind you can always vary your sentence structure simply by reordering the sentence.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In order to engage the reader, the author shows that the sky is blue&lt;/li&gt;
+&lt;li&gt;The author shows that the sky is blue in order to engage the reader&lt;/li&gt;
+&lt;li&gt;Showing that the sky is blue, the author engages the reader&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Blog B</title>
-		<link>http://localhost:1313/blog/blog-b/</link>
+		<title>Definitive List of Literature Vocabulary</title>
+		<link>https://lateraltutors.org/blog/literature-vocabulary/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/blog/blog-b/</guid>
-		<description>&lt;p&gt;Content in Blog B&amp;hellip;&lt;/p&gt;
+		<guid>https://lateraltutors.org/blog/literature-vocabulary/</guid>
+		<description>&lt;p&gt;The following list is not completely exhaustive but it does provide a good foundation, especially for GCSE level students. The terms are loosely ordered so that terms used in similar ways or contexts are near each other.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Meaning&lt;/th&gt;
+          &lt;th&gt;Example / usage&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Allegory&lt;/td&gt;
+          &lt;td&gt;A story which can be interpreted to reveal a hidden meaning&lt;/td&gt;
+          &lt;td&gt;‘Animal Farm’ is an allegory for the Russian revolution&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Frame narrative&lt;/td&gt;
+          &lt;td&gt;The use of a story within a story&lt;/td&gt;
+          &lt;td&gt;In ‘Watchmen’, there exists a pirate themed comic which mirrors the events of the main story&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Satire&lt;/td&gt;
+          &lt;td&gt;The use of humour, irony or exaggeration to form a critique&lt;/td&gt;
+          &lt;td&gt;‘Shrek’ satirizes fairy tales by using elements of traditional stories in a new way which comments on the original&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Narrator&lt;/td&gt;
+          &lt;td&gt;The character or voice which recounts the events of a story&lt;/td&gt;
+          &lt;td&gt;Holden Caulfield in ‘The Catcher in the Rye’ narrates the story and doesn’t understand everything because he is only a teenager&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Archetype&lt;/td&gt;
+          &lt;td&gt;The most common example of a certain person or thing&lt;/td&gt;
+          &lt;td&gt;Superman is the archetypal hero&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Personification&lt;/td&gt;
+          &lt;td&gt;Giving human characteristic to an object, animal or feeling&lt;/td&gt;
+          &lt;td&gt;In ‘The Great Gatsby’ the billboard picturing a large set of eyes is personified as a figure of judgement&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Anthropomorphism&lt;/td&gt;
+          &lt;td&gt;Like personification but only for animals&lt;/td&gt;
+          &lt;td&gt;In ‘The Lord of the Rings’, Smaug has many human qualities which make him an interesting character&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Asyndeton&lt;/td&gt;
+          &lt;td&gt;The absence of ‘and’&lt;/td&gt;
+          &lt;td&gt;Asyndetic listing is ‘lemons, oranges, pears’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Polysyndeton&lt;/td&gt;
+          &lt;td&gt;The repeated use of ‘and’&lt;/td&gt;
+          &lt;td&gt;Polysyndetic listing is ‘lemons and oranges and pears’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Repetition&lt;/td&gt;
+          &lt;td&gt;Repetition of a word or phrase&lt;/td&gt;
+          &lt;td&gt;‘That is really, really good!’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Alliteration&lt;/td&gt;
+          &lt;td&gt;A sequence of words beginning with the same letter. You can have guttural alliteration (letter G), plosives (letter B and P), sibilance (letter S) and dental alliteration (letter D)&lt;/td&gt;
+          &lt;td&gt;‘Wet, wild, windy’ is an example of alliteration&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Assonance&lt;/td&gt;
+          &lt;td&gt;The repetition of vowel sounds&lt;/td&gt;
+          &lt;td&gt;‘Round, sound, bound’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rhyme&lt;/td&gt;
+          &lt;td&gt;Repeated use of a sound at the end of a word or line&lt;/td&gt;
+          &lt;td&gt;‘Seated … released’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Anaphora&lt;/td&gt;
+          &lt;td&gt;Repetition of a word or phrase at the beginning of a sentence&lt;/td&gt;
+          &lt;td&gt;‘This is good. This is bad.’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tone&lt;/td&gt;
+          &lt;td&gt;The character or quality of a piece of writing&lt;/td&gt;
+          &lt;td&gt;The tone of gothic literature is generally quite dark&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Motif&lt;/td&gt;
+          &lt;td&gt;A symbolic image or idea that is repeated throughout a story&lt;/td&gt;
+          &lt;td&gt;In ‘Of Mice and Men’, the motif of Lenny’s dream about owning rabbits motivates his actions throughout the story&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mantra&lt;/td&gt;
+          &lt;td&gt;A statement or slogan repeated frequently&lt;/td&gt;
+          &lt;td&gt;Boxer’s mantra is ‘I will work harder’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hyperbole&lt;/td&gt;
+          &lt;td&gt;An exaggerated statement or claim not meant to be taken literally&lt;/td&gt;
+          &lt;td&gt;‘I’m so hungry I could eat a horse’ is a hyperbolic statement&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Imagery&lt;/td&gt;
+          &lt;td&gt;Visually descriptive language&lt;/td&gt;
+          &lt;td&gt;Floral imagery is used in the description of the garden&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Juxtaposition&lt;/td&gt;
+          &lt;td&gt;The effect created by purposefully contrasting two opposing things&lt;/td&gt;
+          &lt;td&gt;‘The tall man stood next to the short man’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Simile&lt;/td&gt;
+          &lt;td&gt;The comparison of one thing with another different thing&lt;/td&gt;
+          &lt;td&gt;Superman is fast like a speeding bullet&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Metaphor&lt;/td&gt;
+          &lt;td&gt;The description of object or action which is not literally applicable&lt;/td&gt;
+          &lt;td&gt;Superman is as fast as a speeding bullet&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Onomatopoeia&lt;/td&gt;
+          &lt;td&gt;A word which was created based on a sound&lt;/td&gt;
+          &lt;td&gt;‘Bang… sizzle… cuckoo’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Oxymoron&lt;/td&gt;
+          &lt;td&gt;Adjacent words which are opposite&lt;/td&gt;
+          &lt;td&gt;‘The wet desert’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Paradox&lt;/td&gt;
+          &lt;td&gt;A seemingly impossible or absurd problem&lt;/td&gt;
+          &lt;td&gt;‘This is the beginning of the end’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Symbolism&lt;/td&gt;
+          &lt;td&gt;The use of a symbol to represent an idea or quality&lt;/td&gt;
+          &lt;td&gt;The windmill in ‘Animal Farm’ is a symbol for technological advancement&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Allusion&lt;/td&gt;
+          &lt;td&gt;Something intended to remind the reader of something else&lt;/td&gt;
+          &lt;td&gt;By referencing ‘Romeo and Juliet’ the author uses intertextual allusion to Shakespeare&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Anachronism&lt;/td&gt;
+          &lt;td&gt;When something exists in a time period to which it does not belong&lt;/td&gt;
+          &lt;td&gt;The modern film of ‘Romeo and Juliet’ uses anachronistic elements such as guns and phones&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Colloquialism&lt;/td&gt;
+          &lt;td&gt;A word or phrase used in ordinary conversation&lt;/td&gt;
+          &lt;td&gt;‘He’s a regular bloke’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Euphemism&lt;/td&gt;
+          &lt;td&gt;A word or phrase which indirectly addresses an unpleasant or embarrassing topic&lt;/td&gt;
+          &lt;td&gt;‘The birds and the bees’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Dramatic irony&lt;/td&gt;
+          &lt;td&gt;When the reader knows something which the characters do not&lt;/td&gt;
+          &lt;td&gt;In ‘Animal Farm’, we know that the pigs are evil whereas the other animals do not&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Situational irony&lt;/td&gt;
+          &lt;td&gt;When the setting of a story is very different to what was expected&lt;/td&gt;
+          &lt;td&gt;In ‘Animal Farm’ we would not expect animals to be plotting a political revolution&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Verbal irony&lt;/td&gt;
+          &lt;td&gt;A word or phrase which is not meant to be taken literally&lt;/td&gt;
+          &lt;td&gt;‘I’m really glad we have more homework’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Foreshadowing&lt;/td&gt;
+          &lt;td&gt;An indication or warning of a future event&lt;/td&gt;
+          &lt;td&gt;Chekov’s Gun is the idea that if a gun appears in the first act of a play it must go off by the end&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;In media res&lt;/td&gt;
+          &lt;td&gt;When the story begins in the middle of an action&lt;/td&gt;
+          &lt;td&gt;‘The boy was running…’&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Analepsis&lt;/td&gt;
+          &lt;td&gt;When a past event is told to the reader after it has happened&lt;/td&gt;
+          &lt;td&gt;The book uses a flashback to the narrator’s childhood&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Prolepses&lt;/td&gt;
+          &lt;td&gt;When a future event is narrated before it happens&lt;/td&gt;
+          &lt;td&gt;The character was shown a glimpse of their future&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>My Favourite Names in Literature!</title>
-		<link>http://localhost:1313/blog/favourite-names/</link>
+		<link>https://lateraltutors.org/blog/favourite-names/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/blog/favourite-names/</guid>
+		<guid>https://lateraltutors.org/blog/favourite-names/</guid>
 		<description>&lt;p&gt;Not so much my favourite names as much as the names which I felt had well chosen by the authors to import a valuable significance to the text.&lt;/p&gt;
 &lt;p&gt;I find the names of the characters can be productive keys to unlock insight into text. Names are often just one or two words yet authors often choose them carefully because of how they will be expected to reflect the character.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: there will be spoilers for every text mentioned!&lt;/strong&gt;&lt;/p&gt;
-&lt;section class=&#34;bg-dark&#34;&gt;
-    
-
 &lt;details&gt;
     &lt;summary&gt;Kurtz from Joseph Conrad&amp;rsquo;s &amp;lsquo;Heart of Darkness&amp;rsquo;&lt;/summary&gt;
     &lt;div class=&#34;dropdown-content&#34;&gt;&lt;p&gt;Kurtz is the evil at the heart of the jungle in Joseph Conrad’s 1899 novella Heart of Darkness and although the natives of the Congo worship him like a god, everything about him is a contradiction.&lt;/p&gt;
@@ -134,7 +392,6 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     });
 });
 &lt;/script&gt;
-
 &lt;details&gt;
     &lt;summary&gt;Victor Frankenstein from Mary Shelley’s ‘Frankenstein’&lt;/summary&gt;
     &lt;div class=&#34;dropdown-content&#34;&gt;&lt;p&gt;Victor Frankenstein is the original mad scientist whose name is often used to describe his monster instead of him.&lt;/p&gt;
@@ -147,7 +404,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;In 1606, the town of Frankenstein (now known as Ząbkowice Śląskie, Poland) was the site of a scandal involving gravediggers (an act Frankenstein involves himself in). Shelley is also supposed to have visited Frankenstein Castle near Darmstadt in 1814 which is where Johann Konrad Dippel (an alchemist) had been experimenting with human bodies.&lt;/p&gt;
 &lt;p&gt;Finally, Benjamin Franklin – scientist, writer, and experimenter with lightning – may have inspired Shelley. Franklin had been referred to as a ‘modern Prometheus’ which is the subtitle of Shelley’s novel.&lt;/p&gt;
 &lt;p&gt;Funnily enough, for all that possible implications of Victor’s name, his creation does not get a name. I’ll leave you to think about the implications…&lt;/p&gt;
-&lt;p&gt;Some sources are available on the Wikipedia page which explains the origins of Victor Frankenstein’s name: &lt;a href=&#34;https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein&#34;&gt;https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein&lt;/a&gt;’s_name&lt;/p&gt;
+&lt;p&gt;Some sources are available on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein&#39;s_name&#34;&gt;Wikipedia page&lt;/a&gt; which explains the origins of Victor Frankenstein’s name.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/details&gt;
 
@@ -233,7 +490,6 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     });
 });
 &lt;/script&gt;
-
 &lt;details&gt;
     &lt;summary&gt;Jay Gatsby from F. Scott Fitzgerald’s ‘The Great Gatsby’&lt;/summary&gt;
     &lt;div class=&#34;dropdown-content&#34;&gt;&lt;p&gt;Jay Gatsby’s real name is James Gatz. James, meaning “supplanter”, makes sense in this light as Gatsby can be said to takeover an invented character.&lt;/p&gt;
@@ -243,7 +499,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;Gat is also the archaic past tense of the verb “get”. Accumulation of wealth is an important theme in ‘The Great Gatsby’ which comments on the corruption of capitalistic society. ‘Gadsby’ was also a famous early 20s VIP hotel which Fitzgerald may have been alluding to.&lt;/p&gt;
 &lt;p&gt;The infrequency with which Gatsby is referred to by his first name is also interesting as a way of representing the way he distances his true self from society.&lt;/p&gt;
 &lt;p&gt;Finally, the old Scandinavian suffix “-by” denotes a town or place and would suggest Gatsby to be the leader of a great clan although ironically he is the epitome of an individualist.&lt;/p&gt;
-&lt;p&gt;This article is an excellent source of information about the names in Fitzgerald’s novel: &lt;a href=&#34;https://t.co/0dRIW9IcwH&#34;&gt;https://t.co/0dRIW9IcwH&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&#34;https://t.co/0dRIW9IcwH&#34;&gt;download this article&lt;/a&gt; which is an excellent source of information about the names in Fitzgerald’s novel.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/details&gt;
 
@@ -329,11 +585,99 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     });
 });
 &lt;/script&gt;
-
 &lt;details&gt;
     &lt;summary&gt;Othello from Shakespeare’s ‘Othello’&lt;/summary&gt;
-    &lt;div class=&#34;dropdown-content&#34;&gt;&lt;p&gt;I don’t have much to add for this section that hasn’t been covered well by the Bill / Shakespeare Project’s article on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/&#34;&gt;https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/&lt;/a&gt;&lt;/p&gt;
+    &lt;div class=&#34;dropdown-content&#34;&gt;I don’t have much to add for this section that hasn’t been covered well by &lt;a href=&#34;https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/&#34;&gt;the Bill / Shakespeare Project’s article&lt;/a&gt; on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!&lt;/div&gt;
+&lt;/details&gt;
+
+&lt;style&gt;
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 5px;
+    color: var(--colour-secondary);
+}
+
+details summary:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+details .dropdown-content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: height 0.3s ease-out;
+}
+
+details[open] .dropdown-content {
+    height: var(--content-height);
+    padding: 0.5rem;
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--content-height);
+    }
+}
+
+details:not([open]) .dropdown-content {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+function updateHeight(detail) {
+    const content = detail.querySelector(&#39;.dropdown-content&#39;);
+    const height = content.scrollHeight;
+    content.style.setProperty(&#39;--content-height&#39;, height + &#39;px&#39;);
+}
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    const details = document.querySelectorAll(&#39;details&#39;);
+    details.forEach(detail =&gt; {
+        updateHeight(detail);
+        detail.addEventListener(&#39;toggle&#39;, function() {
+            if (detail.open) {
+                updateHeight(detail);
+            } else {
+                const content = detail.querySelector(&#39;.dropdown-content&#39;);
+                
+                content.style.height = content.scrollHeight + &#39;px&#39;;
+                
+                content.offsetHeight;
+                
+                content.style.height = &#39;0px&#39;;
+            }
+        });
+    });
+});
+&lt;/script&gt;
+&lt;details&gt;
+    &lt;summary&gt;Characters in Steinbeck&amp;rsquo;s ‘Of Mice and Men’&lt;/summary&gt;
+    &lt;div class=&#34;dropdown-content&#34;&gt;&lt;p&gt;Character names in &amp;lsquo;Of Mice and Men&amp;rsquo; get a lot of attention in classrooms. Rightfully so as almost every name tells the reader something about the character.&lt;/p&gt;
+&lt;p&gt;Lennie Small gives us ironic juxtaposition between Lennie&amp;rsquo;s name and stature.&lt;/p&gt;
+&lt;p&gt;Curley&amp;rsquo;s name gives us the visual metaphor of &amp;rsquo;tightly curled hair&amp;rsquo; which reflects Curley&amp;rsquo;s tightly wound personality.&lt;/p&gt;
+&lt;p&gt;Curley&amp;rsquo;s wife&amp;rsquo;s lack of a name tells us about the way women were viewed as possessions at the time.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/details&gt;
 
@@ -419,18 +763,15 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     });
 });
 &lt;/script&gt;
-
-
-&lt;/section&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>About</title>
-		<link>http://localhost:1313/about/</link>
+		<link>https://lateraltutors.org/about/</link>
 		<pubDate>Fri, 09 May 2025 22:54:23 +0100</pubDate>
 		
-		<guid>http://localhost:1313/about/</guid>
+		<guid>https://lateraltutors.org/about/</guid>
 		<description>&lt;h2 id=&#34;welcome-to-lateral-tutors&#34;&gt;Welcome to Lateral Tutors&lt;/h2&gt;
 &lt;p&gt;Lateral Tutors is a dedicated tutoring network committed to providing high-quality educational support to students of all ages. Our mission is to empower learners by connecting them with experienced tutors who are passionate about teaching and fostering academic growth.&lt;/p&gt;
 &lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
@@ -455,10 +796,10 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 	
 	<item>
 		<title>Jordan Guillou Tutoring</title>
-		<link>http://localhost:1313/tutors/jordan/</link>
+		<link>https://lateraltutors.org/tutors/jordan/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/tutors/jordan/</guid>
+		<guid>https://lateraltutors.org/tutors/jordan/</guid>
 		<description>&lt;h1 id=&#34;about-jordan&#34;&gt;About Jordan&lt;/h1&gt;
 &lt;p&gt;Jordan Guillou is a dedicated and experienced English Language and Literature tutor specializing in GCSEs, iGCSEs, and A-levels. With a passion for teaching and a deep understanding of literary analysis and language skills, Jordan helps students develop strong communication abilities and achieve their academic goals.&lt;/p&gt;
 &lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;
@@ -482,10 +823,10 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 	
 	<item>
 		<title>Matthea Erasmus Tutoring</title>
-		<link>http://localhost:1313/tutors/matthea/</link>
+		<link>https://lateraltutors.org/tutors/matthea/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>http://localhost:1313/tutors/matthea/</guid>
+		<guid>https://lateraltutors.org/tutors/matthea/</guid>
 		<description>&lt;h1 id=&#34;about-matthea&#34;&gt;About Matthea&lt;/h1&gt;
 &lt;p&gt;Matthea Erasmus is a dedicated and experienced psychology tutor specializing in GCSEs and A-levels. With a passion for teaching and a deep understanding of psychological concepts, Matthea helps students develop a strong foundation in psychology and achieve their academic goals.&lt;/p&gt;
 &lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;

@@ -10,8 +10,6 @@ I find the names of the characters can be productive keys to unlock insight into
 
 **Warning: there will be spoilers for every text mentioned!**
 
-{{< section class="bg-dark" >}}
-
 {{< dropdown title="Kurtz from Joseph Conrad's 'Heart of Darkness'" >}}
 
 Kurtz is the evil at the heart of the jungle in Joseph Conrad’s 1899 novella Heart of Darkness and although the natives of the Congo worship him like a god, everything about him is a contradiction.
@@ -46,7 +44,7 @@ Finally, Benjamin Franklin – scientist, writer, and experimenter with lightnin
 
 Funnily enough, for all that possible implications of Victor’s name, his creation does not get a name. I’ll leave you to think about the implications…
 
-Some sources are available on the Wikipedia page which explains the origins of Victor Frankenstein’s name: https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein’s_name
+Some sources are available on the [Wikipedia page](https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein's_name) which explains the origins of Victor Frankenstein’s name.
 
 {{< /dropdown >}}
 
@@ -66,16 +64,24 @@ The infrequency with which Gatsby is referred to by his first name is also inter
 
 Finally, the old Scandinavian suffix “-by” denotes a town or place and would suggest Gatsby to be the leader of a great clan although ironically he is the epitome of an individualist.
 
-This article is an excellent source of information about the names in Fitzgerald’s novel: https://t.co/0dRIW9IcwH
+You can [download this article](https://t.co/0dRIW9IcwH) which is an excellent source of information about the names in Fitzgerald’s novel.
 
 {{< /dropdown >}}
 
 {{< dropdown title="Othello from Shakespeare’s ‘Othello’" >}}
 
-I don’t have much to add for this section that hasn’t been covered well by the Bill / Shakespeare Project’s article on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!
-
-https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/
+I don’t have much to add for this section that hasn’t been covered well by [the Bill / Shakespeare Project’s article](https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/) on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!
 
 {{< /dropdown >}}
 
-{{< /section >}}
+{{< dropdown title="Characters in Steinbeck's ‘Of Mice and Men’" >}}
+
+Character names in 'Of Mice and Men' get a lot of attention in classrooms. Rightfully so as almost every name tells the reader something about the character.
+
+Lennie Small gives us ironic juxtaposition between Lennie's name and stature.
+
+Curley's name gives us the visual metaphor of 'tightly curled hair' which reflects Curley's tightly wound personality.
+
+Curley's wife's lack of a name tells us about the way women were viewed as possessions at the time.
+
+{{< /dropdown >}}

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<title>My Favourite Names in Literature! | Lateral Tutors</title>
-	<link rel="canonical" href="http://localhost:1313/">
+	<link rel="canonical" href="https://lateraltutors.org/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 
@@ -96,9 +96,6 @@ Warning: there will be spoilers for every text mentioned!">
 		<p>Not so much my favourite names as much as the names which I felt had well chosen by the authors to import a valuable significance to the text.</p>
 <p>I find the names of the characters can be productive keys to unlock insight into text. Names are often just one or two words yet authors often choose them carefully because of how they will be expected to reflect the character.</p>
 <p><strong>Warning: there will be spoilers for every text mentioned!</strong></p>
-<section class="bg-dark">
-    
-
 <details>
     <summary>Kurtz from Joseph Conrad&rsquo;s &lsquo;Heart of Darkness&rsquo;</summary>
     <div class="dropdown-content"><p>Kurtz is the evil at the heart of the jungle in Joseph Conrad’s 1899 novella Heart of Darkness and although the natives of the Congo worship him like a god, everything about him is a contradiction.</p>
@@ -191,7 +188,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
 <details>
     <summary>Victor Frankenstein from Mary Shelley’s ‘Frankenstein’</summary>
     <div class="dropdown-content"><p>Victor Frankenstein is the original mad scientist whose name is often used to describe his monster instead of him.</p>
@@ -204,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>In 1606, the town of Frankenstein (now known as Ząbkowice Śląskie, Poland) was the site of a scandal involving gravediggers (an act Frankenstein involves himself in). Shelley is also supposed to have visited Frankenstein Castle near Darmstadt in 1814 which is where Johann Konrad Dippel (an alchemist) had been experimenting with human bodies.</p>
 <p>Finally, Benjamin Franklin – scientist, writer, and experimenter with lightning – may have inspired Shelley. Franklin had been referred to as a ‘modern Prometheus’ which is the subtitle of Shelley’s novel.</p>
 <p>Funnily enough, for all that possible implications of Victor’s name, his creation does not get a name. I’ll leave you to think about the implications…</p>
-<p>Some sources are available on the Wikipedia page which explains the origins of Victor Frankenstein’s name: <a href="https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein">https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein</a>’s_name</p>
+<p>Some sources are available on the <a href="https://en.wikipedia.org/wiki/Frankenstein#Origin_of_Victor_Frankenstein's_name">Wikipedia page</a> which explains the origins of Victor Frankenstein’s name.</p>
 </div>
 </details>
 
@@ -290,7 +286,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
 <details>
     <summary>Jay Gatsby from F. Scott Fitzgerald’s ‘The Great Gatsby’</summary>
     <div class="dropdown-content"><p>Jay Gatsby’s real name is James Gatz. James, meaning “supplanter”, makes sense in this light as Gatsby can be said to takeover an invented character.</p>
@@ -300,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Gat is also the archaic past tense of the verb “get”. Accumulation of wealth is an important theme in ‘The Great Gatsby’ which comments on the corruption of capitalistic society. ‘Gadsby’ was also a famous early 20s VIP hotel which Fitzgerald may have been alluding to.</p>
 <p>The infrequency with which Gatsby is referred to by his first name is also interesting as a way of representing the way he distances his true self from society.</p>
 <p>Finally, the old Scandinavian suffix “-by” denotes a town or place and would suggest Gatsby to be the leader of a great clan although ironically he is the epitome of an individualist.</p>
-<p>This article is an excellent source of information about the names in Fitzgerald’s novel: <a href="https://t.co/0dRIW9IcwH">https://t.co/0dRIW9IcwH</a></p>
+<p>You can <a href="https://t.co/0dRIW9IcwH">download this article</a> which is an excellent source of information about the names in Fitzgerald’s novel.</p>
 </div>
 </details>
 
@@ -386,11 +381,99 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
 <details>
     <summary>Othello from Shakespeare’s ‘Othello’</summary>
-    <div class="dropdown-content"><p>I don’t have much to add for this section that hasn’t been covered well by the Bill / Shakespeare Project’s article on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!</p>
-<p><a href="https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/">https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/</a></p>
+    <div class="dropdown-content">I don’t have much to add for this section that hasn’t been covered well by <a href="https://web.archive.org/web/20230605131155/https://thebillshakespeareproject.com/2015/12/othello-names/">the Bill / Shakespeare Project’s article</a> on the use of names in Othello. Make sure to check out the comments as there are some great insights in there as well!</div>
+</details>
+
+<style>
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--colour-primary);
+    border: 2px solid var(--colour-secondary);
+    border-radius: 5px;
+    color: var(--colour-secondary);
+}
+
+details summary:hover {
+    background: var(--colour-secondary);
+    color: var(--colour-primary);
+}
+
+details .dropdown-content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    transition: height 0.3s ease-out;
+}
+
+details[open] .dropdown-content {
+    height: var(--content-height);
+    padding: 0.5rem;
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--content-height);
+    }
+}
+
+details:not([open]) .dropdown-content {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+</style>
+
+<script>
+function updateHeight(detail) {
+    const content = detail.querySelector('.dropdown-content');
+    const height = content.scrollHeight;
+    content.style.setProperty('--content-height', height + 'px');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+        updateHeight(detail);
+        detail.addEventListener('toggle', function() {
+            if (detail.open) {
+                updateHeight(detail);
+            } else {
+                const content = detail.querySelector('.dropdown-content');
+                
+                content.style.height = content.scrollHeight + 'px';
+                
+                content.offsetHeight;
+                
+                content.style.height = '0px';
+            }
+        });
+    });
+});
+</script>
+<details>
+    <summary>Characters in Steinbeck&rsquo;s ‘Of Mice and Men’</summary>
+    <div class="dropdown-content"><p>Character names in &lsquo;Of Mice and Men&rsquo; get a lot of attention in classrooms. Rightfully so as almost every name tells the reader something about the character.</p>
+<p>Lennie Small gives us ironic juxtaposition between Lennie&rsquo;s name and stature.</p>
+<p>Curley&rsquo;s name gives us the visual metaphor of &rsquo;tightly curled hair&rsquo; which reflects Curley&rsquo;s tightly wound personality.</p>
+<p>Curley&rsquo;s wife&rsquo;s lack of a name tells us about the way women were viewed as possessions at the time.</p>
 </div>
 </details>
 
@@ -476,14 +559,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
-
-</section>
 
 		
 		
 </article>
-	<div id="nextprev"><a href="/blog/blog-b/"><div id="nextart">Next:<br>Blog B</div></a>
+	<div id="nextprev"><a href="/blog/literature-vocabulary/"><div id="nextart">Next:<br>Definitive List of Literature Vocabulary</div></a>
 </div>
 </main>
 	
