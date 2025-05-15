@@ -46,6 +46,9 @@
             <div class="tutor-details">
                 <p class="tutor-subject">📚 Subject: {{ delimit .Params.subject ", " }}</p>
                 <p class="tutor-level">🎓 Level: {{ delimit .Params.level ", " }}</p>
+                {{ if not .Params.is_available }}
+                <p class="tutor-availability" style="color: red;">⚠️ Currently unavailable</p>
+                {{ end }}
             </div>
         </a>
     </div>

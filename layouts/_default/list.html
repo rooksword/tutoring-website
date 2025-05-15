@@ -30,7 +30,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 2rem 0;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -45,6 +45,18 @@
 .tutor-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+
+@media (max-width: 750px) {
+    .tutor-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    
+    .tutor-card {
+        width: 250px;
+        margin: 0 auto;
+    }
 }
 
 .tutor-link {
