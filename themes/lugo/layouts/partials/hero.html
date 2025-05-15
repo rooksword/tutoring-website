@@ -46,9 +46,13 @@
     
     </div>
 
+    {{ if and (eq .Section "tutors") (ne .Kind "section") (not .Params.is_available) }}
     <div id="form">
-        <span id="toggle-form" style="display: block; padding: 10px;"><b>Request a FREE consultation ▼</b></span>
-        
+        <span style="display: block; padding: 10px; text-shadow: none; color: red;"><b>Unfortunately, {{ index (split .Title " ") 0 }} is not currently available.</b></span>
+    </div>
+    {{ else }}
+    <div id="form">
+        <span id="toggle-form" style="display: block; padding: 10px; text-shadow: none;"><b>Request a FREE consultation ▼</b></span>
         <form id="consultation-form" name="contact-{{ .Title }}" method="POST" data-netlify="true">
             <p id="form-label">Your name:</p>
             <input name="name" type="text" placeholder="How should I call you?"></input>
@@ -66,6 +70,7 @@
             <br><br>
         </form>
     </div>
+    {{ end }}
 </div>
 
 <script>

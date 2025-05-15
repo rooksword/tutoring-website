@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<title>Our Tutors | Lateral Tutors</title>
-	<link rel="canonical" href="https://lateraltutors.org/">
+	<link rel="canonical" href="http://localhost:1313/">
 	<link rel='alternate' type='application/rss+xml' title="Lateral Tutors RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 
@@ -14,7 +14,7 @@
 	<meta name="description" content="Our Tutors
 Welcome to our network of dedicated tutors! Each of our tutors is committed to providing high-quality educational support tailored to your needs. Click on a tutor&rsquo;s name to learn more about their expertise and how to get in touch.
 How to Contact
-If you&rsquo;re interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at contact@lateraltutors.com for any general inquiries.">
+If you&rsquo;re interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at contact@lateraltutors.org for any general inquiries.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta charset="utf-8">
@@ -35,9 +35,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
         <a href="/tutors/" style="text-decoration: underline">
         Tutors
         </a>
-        <a href="/about/" >
-        About
-        </a>
+        
         <a href="/blog/" >
         Blogs
         </a>
@@ -56,9 +54,9 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
     
     </div>
 
+    
     <div id="form">
-        <span id="toggle-form" style="display: block; padding: 10px;"><b>Request a FREE consultation ▼</b></span>
-        
+        <span id="toggle-form" style="display: block; padding: 10px; text-shadow: none;"><b>Request a FREE consultation ▼</b></span>
         <form id="consultation-form" name="contact-Our Tutors" method="POST" data-netlify="true">
             <p id="form-label">Your name:</p>
             <input name="name" type="text" placeholder="How should I call you?"></input>
@@ -76,6 +74,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
             <br><br>
         </form>
     </div>
+    
 </div>
 
 <script>
@@ -96,7 +95,7 @@ If you&rsquo;re interested in working with any of our tutors, please visit their
 		<h1 id="our-tutors">Our Tutors</h1>
 <p>Welcome to our network of dedicated tutors! Each of our tutors is committed to providing high-quality educational support tailored to your needs. Click on a tutor&rsquo;s name to learn more about their expertise and how to get in touch.</p>
 <h2 id="how-to-contact">How to Contact</h2>
-<p>If you&rsquo;re interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at <a href="mailto:contact@lateraltutors.com">contact@lateraltutors.com</a> for any general inquiries.</p>
+<p>If you&rsquo;re interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at <a href="mailto:contact@lateraltutors.org">contact@lateraltutors.org</a> for any general inquiries.</p>
 <p>Browse our tutors below and click on their profiles to see more:</p>
 
 
@@ -172,7 +171,7 @@ img {
 
 .tutor-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 2rem 0;
     margin: 0 auto;
@@ -184,7 +183,6 @@ img {
     border-radius: 10px;
     overflow: hidden;
     transition: 0.2s;
-    width: 250px;
 }
 
 @media (max-width: 750px) {
@@ -194,7 +192,7 @@ img {
     }
     
     .tutor-card {
-
+        width: 250px;
         margin: 0 auto;
     }
 }

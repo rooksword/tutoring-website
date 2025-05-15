@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Lateral Tutors</title>
-	<link>https://lateraltutors.org/blog/</link>
+	<link>http://localhost:1313/blog/</link>
 	<description>Recent content in Blogs on Lateral Tutors</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<copyright>© Lateral Tutors {year}</copyright>
 	<lastBuildDate>Thu, 09 May 2024 23:02:24 +0100</lastBuildDate>
     
-        <atom:link href="https://lateraltutors.org/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Definitive List of Essay Vocabulary</title>
-		<link>https://lateraltutors.org/blog/essay-vocab/</link>
+		<link>http://localhost:1313/blog/essay-vocab/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.org/blog/essay-vocab/</guid>
+		<guid>http://localhost:1313/blog/essay-vocab/</guid>
 		<description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;This guide is aimed at providing GCSE level students with a plethora of vocabulary which they can employ in their writing. As well as a list of words, I’ve provided a short explanation for how these words could be used.&lt;/p&gt;
 &lt;p&gt;As a general note, if you are in need of an alternative for any word / phrase, search &lt;a href=&#34;https://www.powerthesaurus.org/&#34;&gt;PowerThesaurus&lt;/a&gt;. I use this website often and you can use it to find synonyms as well as antonyms. If you are writing in Microsoft Word, you can also right-click a word to find synonyms quickly.&lt;/p&gt;
@@ -88,10 +88,10 @@
 	
 	<item>
 		<title>Definitive List of Literature Vocabulary</title>
-		<link>https://lateraltutors.org/blog/literature-vocabulary/</link>
+		<link>http://localhost:1313/blog/literature-vocabulary/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.org/blog/literature-vocabulary/</guid>
+		<guid>http://localhost:1313/blog/literature-vocabulary/</guid>
 		<description>&lt;p&gt;The following list is not completely exhaustive but it does provide a good foundation, especially for GCSE level students. The terms are loosely ordered so that terms used in similar ways or contexts are near each other.&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -294,10 +294,10 @@
 	
 	<item>
 		<title>My Favourite Names in Literature!</title>
-		<link>https://lateraltutors.org/blog/favourite-names/</link>
+		<link>http://localhost:1313/blog/favourite-names/</link>
 		<pubDate>Fri, 09 May 2025 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.org/blog/favourite-names/</guid>
+		<guid>http://localhost:1313/blog/favourite-names/</guid>
 		<description>&lt;p&gt;Not so much my favourite names as much as the names which I felt had well chosen by the authors to import a valuable significance to the text.&lt;/p&gt;
 &lt;p&gt;I find the names of the characters can be productive keys to unlock insight into text. Names are often just one or two words yet authors often choose them carefully because of how they will be expected to reflect the character.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: there will be spoilers for every text mentioned!&lt;/strong&gt;&lt;/p&gt;
@@ -768,39 +768,11 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 	</item>
 	
 	<item>
-		<title>About</title>
-		<link>https://lateraltutors.org/about/</link>
-		<pubDate>Fri, 09 May 2025 22:54:23 +0100</pubDate>
-		
-		<guid>https://lateraltutors.org/about/</guid>
-		<description>&lt;h2 id=&#34;welcome-to-lateral-tutors&#34;&gt;Welcome to Lateral Tutors&lt;/h2&gt;
-&lt;p&gt;Lateral Tutors is a dedicated tutoring network committed to providing high-quality educational support to students of all ages. Our mission is to empower learners by connecting them with experienced tutors who are passionate about teaching and fostering academic growth.&lt;/p&gt;
-&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
-&lt;p&gt;At Lateral Tutors, we believe that every student deserves access to personalized learning experiences. Our goal is to help students achieve their academic potential through tailored tutoring sessions that address their unique needs and learning styles.&lt;/p&gt;
-&lt;h2 id=&#34;what-we-offer&#34;&gt;What We Offer&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Personalized Tutoring&lt;/strong&gt;: One-on-one sessions tailored to each student&amp;rsquo;s learning pace and style.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Expert Tutors&lt;/strong&gt;: Our tutors are highly qualified professionals with extensive experience in their respective fields.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Flexible Scheduling&lt;/strong&gt;: We offer convenient scheduling options to accommodate busy student lives.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Comprehensive Subjects&lt;/strong&gt;: From mathematics and science to languages and humanities, we cover a wide range of subjects.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;why-choose-us&#34;&gt;Why Choose Us?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Proven Success&lt;/strong&gt;: Our students consistently show improvement in their academic performance.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Supportive Environment&lt;/strong&gt;: We create a supportive and encouraging learning environment for all students.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Affordable Rates&lt;/strong&gt;: We strive to make quality tutoring accessible to everyone.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h2&gt;
-&lt;p&gt;Interested in joining our network or need more information? Reach out to us at &lt;a href=&#34;mailto:contact@lateraltutors.com&#34;&gt;contact@lateraltutors.com&lt;/a&gt; or visit our website at &lt;a href=&#34;http://www.lateraltutors.com&#34;&gt;www.lateraltutors.com&lt;/a&gt;.&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Jordan Guillou Tutoring</title>
-		<link>https://lateraltutors.org/tutors/jordan/</link>
+		<link>http://localhost:1313/tutors/jordan/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.org/tutors/jordan/</guid>
+		<guid>http://localhost:1313/tutors/jordan/</guid>
 		<description>&lt;h1 id=&#34;about-jordan&#34;&gt;About Jordan&lt;/h1&gt;
 &lt;p&gt;Jordan Guillou is a dedicated and experienced English Language and Literature tutor specializing in GCSEs, iGCSEs, and A-levels. With a passion for teaching and a deep understanding of literary analysis and language skills, Jordan helps students develop strong communication abilities and achieve their academic goals.&lt;/p&gt;
 &lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;
@@ -824,10 +796,10 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 	
 	<item>
 		<title>Matthea Erasmus Tutoring</title>
-		<link>https://lateraltutors.org/tutors/matthea/</link>
+		<link>http://localhost:1313/tutors/matthea/</link>
 		<pubDate>Thu, 09 May 2024 23:02:24 +0100</pubDate>
 		
-		<guid>https://lateraltutors.org/tutors/matthea/</guid>
+		<guid>http://localhost:1313/tutors/matthea/</guid>
 		<description>&lt;h1 id=&#34;about-matthea&#34;&gt;About Matthea&lt;/h1&gt;
 &lt;p&gt;Matthea Erasmus is a dedicated and experienced psychology tutor specializing in GCSEs and A-levels. With a passion for teaching and a deep understanding of psychological concepts, Matthea helps students develop a strong foundation in psychology and achieve their academic goals.&lt;/p&gt;
 &lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;

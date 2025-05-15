@@ -12,9 +12,12 @@
         <a href="{{ "tutors/" | relURL }}" {{ if eq .Section "tutors" }}style="text-decoration: underline"{{ end }}>
         Tutors
         </a>
+        <!--
+        <div style="color: #F8F3E8">·</div>
         <a href="{{ "about/" | relURL }}" {{ if and .File (eq .File.TranslationBaseName "about") }}style="text-decoration: underline"{{ end }}>
         About
         </a>
+        -->
         <a href="{{ "blog/" | relURL }}" {{ if eq .Section "blog" }}style="text-decoration: underline"{{ end }}>
         Blogs
         </a>

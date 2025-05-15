@@ -6,6 +6,7 @@ subject = ['English Language', 'English Literature']
 level = ['iGCSEs', 'GCSEs', 'A-levels']
 image = '/jordan.jpg'
 background = '/library.png'
+is_available = true
 +++
 # About Jordan
 

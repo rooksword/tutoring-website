@@ -61,9 +61,16 @@ header
     gap: 20px;
 }
 
-table, th, td {
-    border: 1px solid;
+table {
     border-collapse: collapse;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+th, td {
+    border: 1px solid;
     padding: 10px;
 }
 
@@ -85,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1em;
 }
 
-div, a, p, ul, ol, span, input, textarea, button {
+div, a, p, ul, ol, span, input, textarea, button, th, td, table {
 	font-size: 20px;
 }
 
@@ -310,4 +317,10 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin-bottom: 1em; /* Add some spacing below the table */
 }

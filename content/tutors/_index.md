@@ -9,6 +9,6 @@ Welcome to our network of dedicated tutors! Each of our tutors is committed to p
 
 ## How to Contact
 
-If you're interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at [contact@lateraltutors.com](mailto:contact@lateraltutors.com) for any general inquiries.
+If you're interested in working with any of our tutors, please visit their individual pages for more information and contact details. You can also reach out to us directly at [contact@lateraltutors.org](mailto:contact@lateraltutors.org) for any general inquiries.
 
 Browse our tutors below and click on their profiles to see more:

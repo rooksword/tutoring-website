@@ -7,6 +7,7 @@ level = ['GCSEs', 'A-levels']
 secondary_color = '#f700ff'
 image = '/matthea.jpg'
 background = '/brain.png'
+is_available = false
 +++
 # About Matthea
 
