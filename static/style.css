@@ -21,9 +21,9 @@ body {
     background-size: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat-y;
+    background-size: 1920px 1280px;
 
 	overflow-y: scroll; /* Show vertical scrollbar */
 
